@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Start a Project — Apexify Technical Engineering &amp; Advisory</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <style>
+    .material-symbols-outlined {
+      font-family: 'Material Symbols Outlined';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+    }
+  </style>
+  <!-- Tailwind CSS (Local Build) -->
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body
+  class="bg-background text-on-background font-body-md antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed min-h-screen flex flex-col">
+  <!-- Minimal Focused View Header to satisfy "Back-to-Main" exception for Process / Form Screen -->
+  <header class="sticky top-0 z-50 bg-surface/95 backdrop-blur border-b border-outline-variant/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between whitespace-nowrap">
+      <!-- Brand -->
+      <a class="flex items-center gap-3 text-primary focus:outline-none" href="home.html"><img src="images/logo.png"
+          alt="Apexify Software Solutions" class="h-10 w-auto object-contain"></a>
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden md:flex items-center gap-8">
+        <a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors"
+          href="services.html">Services</a>
+        <a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors"
+          href="why-us.html">Why Us</a>
+        <a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors"
+          href="our_work.html">Work</a>
+        <a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors"
+          href="process.html">Process</a>
+        <a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors"
+          href="solution.html">Architecture</a>
+      </nav>
+      <!-- CTAs -->
+      <div class="flex items-center gap-3">
+        <a class="hidden sm:inline-flex items-center justify-center rounded-lg h-10 px-4 bg-surface-container text-on-surface hover:bg-surface-container-high text-sm font-semibold border border-outline-variant/40 transition-colors"
+          href="our_work.html">
+          View Our Work
+        </a>
+        <a class="inline-flex items-center gap-1.5 justify-center rounded-lg h-10 px-4 bg-primary-container text-surface-container-lowest hover:bg-primary text-sm font-semibold tracking-[0.015em] shadow-sm transition-all"
+          href="contacts.html">
+          <span class="">Start a Project</span>
+          <span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-- Main Inquiry Section -->
+  <main class="flex-1 py-10 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Top Eyebrow and Header Banner -->
+      <div
+        class="relative max-w-7xl mx-auto text-left mb-12 pt-8 pb-8 rounded-xl bg-surface-container-low border border-outline-variant/30 shadow-sm overflow-hidden z-10 px-8 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-8">
+        <div
+          class="absolute right-0 top-0 w-64 h-full bg-gradient-to-l from-primary/5 to-transparent pointer-events-none">
+        </div>
+        <div class="max-w-2xl relative z-10">
+          <div class="inline-flex items-center gap-2 mb-3">
+            <span
+              class="px-2.5 py-0.5 text-[10px] font-bold tracking-wider text-secondary bg-secondary/10 rounded-sm uppercase">
+              START A PROJECT
+            </span>
+          </div>
+          <h1 class="text-3xl lg:text-4xl font-black text-primary tracking-tight mb-3">
+            Let's Build Something Extraordinary.
+          </h1>
+          <p class="text-base text-on-surface-variant leading-relaxed">
+            Are you ready to accelerate your enterprise growth? Fill out the brief below and our technical leads will
+            respond within 24 hours.
+          </p>
+        </div>
+        <div class="hidden md:flex relative z-10 shrink-0">
+          <div
+            class="w-16 h-16 rounded-full bg-surface-container-lowest border border-outline-variant/50 flex items-center justify-center shadow-sm">
+            <span class="material-symbols-outlined text-3xl text-secondary">mail</span>
+          </div>
+        </div>
+      </div>
+      <!-- 2-Column Grid Layout -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+        <!-- Left Column: Direct Info, Guarantee, Timeline, Instant Channel -->
+        <div class="lg:col-span-5 space-y-6">
+          <!-- Direct Advisory & Contact Card -->
+          <div class="bg-surface-container-lowest border border-outline-variant/50 rounded-xl p-6 shadow-sm">
+            <h2 class="text-headline-sm text-on-surface mb-5 font-bold flex items-center gap-2.5">
+              <span class="material-symbols-outlined text-secondary">contact_support</span>
+              Direct Technical Advisory
+            </h2>
+            <div class="divide-y divide-outline-variant/30 text-body-md">
+              <div class="py-3.5 flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
+                <span class="text-on-surface-variant text-xs font-semibold uppercase tracking-wider">Email</span>
+                <a class="text-primary-container font-mono text-sm hover:underline font-medium"
+                  href="mailto:hello@apexify.dev">hello@apexify.dev</a>
+              </div>
+              <div class="py-3.5 flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
+                <span class="text-on-surface-variant text-xs font-semibold uppercase tracking-wider">Direct Line</span>
+                <a class="text-on-surface font-mono text-sm hover:text-secondary font-medium" href="tel:+15550192834">+1
+                  (555) 019-2834</a>
+              </div>
+              <div class="py-3.5 flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
+                <span class="text-on-surface-variant text-xs font-semibold uppercase tracking-wider">Headquarters</span>
+                <span class="text-on-surface text-sm text-right">San Francisco, CA &amp; Remote Global</span>
+              </div>
+            </div>
+          </div>
+          <!-- Guarantee Callout Banner -->
+          <div
+            class="bg-surface-container-low border border-outline-variant/60 rounded-xl p-6 relative overflow-hidden">
+            <div class="absolute -right-6 -bottom-6 w-24 h-24 bg-secondary/5 rounded-full blur-xl pointer-events-none">
+            </div>
+            <div class="flex items-start gap-4">
+              <div
+                class="size-10 rounded-lg bg-primary-container text-surface-bright flex items-center justify-center shrink-0">
+                <span class="material-symbols-outlined">verified_user</span>
+              </div>
+              <div>
+                <h3 class="text-on-surface font-headline-sm text-base font-bold mb-1">Our Engineering Guarantee</h3>
+                <p class="text-on-surface-variant text-body-md leading-normal">
+                  No account manager runaround—you speak directly with Senior Technical Architects from day one.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- What Happens Next Timeline -->
+          <div class="bg-surface-container-lowest border border-outline-variant/50 rounded-xl p-6 shadow-sm">
+            <h3 class="text-label-caps uppercase text-on-surface-variant font-bold tracking-wider mb-5">
+              What Happens Next
+            </h3>
+            <ol class="relative border-l border-outline-variant/50 ml-3 space-y-6">
+              <!-- Step 1 -->
+              <li class="ml-6">
+                <span
+                  class="absolute -left-3 flex items-center justify-center size-6 rounded-full bg-primary-container text-surface-bright text-xs font-bold font-mono ring-4 ring-surface-container-lowest">
+                  1
+                </span>
+                <h4 class="font-headline-sm text-sm font-semibold text-on-surface">Initial Discovery Review</h4>
+                <p class="text-xs text-secondary font-medium mb-1">Within 24 business hours</p>
+                <p class="text-body-md text-on-surface-variant text-xs leading-relaxed">
+                  Our core engineering leads thoroughly evaluate your technical specifications and dependencies.
+                </p>
+              </li>
+              <!-- Step 2 -->
+              <li class="ml-6">
+                <span
+                  class="absolute -left-3 flex items-center justify-center size-6 rounded-full bg-surface-container-high text-on-surface text-xs font-bold font-mono ring-4 ring-surface-container-lowest">
+                  2
+                </span>
+                <h4 class="font-headline-sm text-sm font-semibold text-on-surface">Technical Feasibility &amp; Scope
+                  Architecture</h4>
+                <p class="text-body-md text-on-surface-variant text-xs leading-relaxed mt-1">
+                  A 30-minute structured technical drilldown with a Principal System Architect to outline boundaries and
+                  requirements.
+                </p>
+              </li>
+              <!-- Step 3 -->
+              <li class="ml-6">
+                <span
+                  class="absolute -left-3 flex items-center justify-center size-6 rounded-full bg-surface-container-high text-on-surface text-xs font-bold font-mono ring-4 ring-surface-container-lowest">
+                  3
+                </span>
+                <h4 class="font-headline-sm text-sm font-semibold text-on-surface">Transparent Milestone Proposal &amp;
+                  Estimate</h4>
+                <p class="text-body-md text-on-surface-variant text-xs leading-relaxed mt-1">
+                  You receive an end-to-end technical scope, sprint milestones, fixed sprint team pricing, and
+                  architectural diagram.
+                </p>
+              </li>
+            </ol>
+          </div>
+          <!-- Instant Chat Channel -->
+          <div
+            class="p-5 rounded-xl border border-secondary/20 bg-secondary-fixed/20 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+              <span class="material-symbols-outlined text-secondary text-2xl">chat</span>
+              <div>
+                <p class="text-sm font-bold text-on-surface">Need an immediate brief?</p>
+                <p class="text-xs text-on-surface-variant">Connect with on-duty lead via encrypted messaging.</p>
+              </div>
+            </div>
+            <a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-primary-container text-surface text-xs font-bold hover:bg-primary transition-colors shrink-0 shadow-sm focus:outline-none focus:ring-2 focus:ring-secondary"
+              href="https://wa.me/15550192834" rel="noopener noreferrer" target="_blank">
+              <span>Chat on WhatsApp</span>
+              <span class="material-symbols-outlined text-sm">open_in_new</span>
+            </a>
+          </div>
+        </div>
+        <!-- Right Column: Interactive Contact & Scoping Form -->
+        <div class="lg:col-span-7">
+          <div
+            class="bg-surface-container-lowest border border-outline-variant/60 rounded-2xl p-6 sm:p-8 lg:p-10 shadow-sm">
+            <div class="border-b border-outline-variant/30 pb-5 mb-8">
+              <h2 class="text-headline-md text-on-surface font-bold">Project Scoping Brief</h2>
+              <p class="text-on-surface-variant text-body-md mt-1">
+                Provide as much context as you have ready. Rough concepts or full RFC specifications are equally
+                welcome.
+              </p>
+            </div>
+            <form class="space-y-8" id="project-brief-form"
+              onsubmit="event.preventDefault(); document.getElementById('submission-success').classList.remove('hidden'); this.classList.add('hidden');">
+              <!-- Contact Details Grid -->
+              <div class="space-y-4">
+                <span class="text-label-caps text-secondary font-bold uppercase tracking-wider block">01. Your
+                  Identity</span>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-xs font-semibold text-on-surface mb-1.5" for="fullName">
+                      Full Name <span aria-hidden="true" class="text-error">*</span>
+                    </label>
+                    <input
+                      class="w-full rounded-xl border border-outline-variant bg-surface-container-lowest px-3.5 py-2.5 text-sm text-on-surface placeholder:text-outline focus:border-secondary focus:ring-2 focus:ring-secondary/30 outline-none transition"
+                      id="fullName" name="fullName" placeholder="Alex Morgan" required="" type="text" />
+                  </div>
+                  <div>
+                    <label class="block text-xs font-semibold text-on-surface mb-1.5" for="workEmail">
+                      Work Email <span aria-hidden="true" class="text-error">*</span>
+                    </label>
+                    <input
+                      class="w-full rounded-xl border border-outline-variant bg-surface-container-lowest px-3.5 py-2.5 text-sm text-on-surface placeholder:text-outline focus:border-secondary focus:ring-2 focus:ring-secondary/30 outline-none transition"
+                      id="workEmail" name="workEmail" placeholder="alex@company.com" required="" type="email" />
+                  </div>
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-on-surface mb-1.5" for="companyName">
+                    Company / Organization Name <span
+                      class="text-on-surface-variant text-xs font-normal">(Optional)</span>
+                  </label>
+                  <input
+                    class="w-full rounded-xl border border-outline-variant bg-surface-container-lowest px-3.5 py-2.5 text-sm text-on-surface placeholder:text-outline focus:border-secondary focus:ring-2 focus:ring-secondary/30 outline-none transition"
+                    id="companyName" name="companyName" placeholder="Acme Corp or Stealth Startup" type="text" />
+                </div>
+              </div>
+              <!-- Service Needed Pills -->
+              <div class="space-y-3">
+                <label class="block text-xs font-semibold text-on-surface">
+                  02. Service Needed <span aria-hidden="true" class="text-error">*</span>
+                </label>
+                <div aria-label="Service Needed" class="grid grid-cols-2 sm:grid-cols-3 gap-2.5" role="radiogroup">
+                  <label
+                    class="relative flex cursor-pointer rounded-lg border border-outline-variant p-3 hover:bg-surface-container-low transition focus-within:ring-2 focus-within:ring-secondary has-[:checked]:border-secondary has-[:checked]:bg-secondary-fixed/20 has-[:checked]:text-on-secondary-fixed">
+                    <input checked="" class="sr-only" name="service_needed" type="radio" value="Custom Web App" />
+                    <span class="text-xs font-semibold select-none flex items-center gap-1.5">
+                      <span class="size-1.5 rounded-full bg-secondary"></span>
+                      Custom Web App
+                    </span>
+                  </label>
+                  <label
+                    class="relative flex cursor-pointer rounded-lg border border-outline-variant p-3 hover:bg-surface-container-low transition focus-within:ring-2 focus-within:ring-secondary has-[:checked]:border-secondary has-[:checked]:bg-secondary-fixed/20 has-[:checked]:text-on-secondary-fixed">
+                    <input class="sr-only" name="service_needed" type="radio" value="Mobile App" />
+                    <span class="text-xs font-semibold select-none flex items-center gap-1.5">
+                      <span class="size-1.5 rounded-full bg-secondary"></span>
+                      Mobile App (iOS/Android)
+                    </span>
+                  </label>
+                  <label
+                    class="relative flex cursor-pointer rounded-lg border border-outline-variant p-3 hover:bg-surface-container-low transition focus-within:ring-2 focus-within:ring-secondary has-[:checked]:border-secondary has-[:checked]:bg-secondary-fixed/20 has-[:checked]:text-on-secondary-fixed">
+                    <input class="sr-only" name="service_needed" type="radio" value="Website Redesign" />
+                    <span class="text-xs font-semibold select-none flex items-center gap-1.5">
+                      <span class="size-1.5 rounded-full bg-secondary"></span>
+                      Website Redesign
+                    </span>
+                  </label>
+                  <label
+                    class="relative flex cursor-pointer rounded-lg border border-outline-variant p-3 hover:bg-surface-container-low transition focus-within:ring-2 focus-within:ring-secondary has-[:checked]:border-secondary has-[:checked]:bg-secondary-fixed/20 has-[:checked]:text-on-secondary-fixed">
+                    <input class="sr-only" name="service_needed" type="radio" value="Cloud/API" />
+                    <span class="text-xs font-semibold select-none flex items-center gap-1.5">
+                      <span class="size-1.5 rounded-full bg-secondary"></span>
+                      Cloud / API Infra
+                    </span>
+                  </label>
+                  <label
+                    class="relative flex cursor-pointer rounded-lg border border-outline-variant p-3 hover:bg-surface-container-low transition focus-within:ring-2 focus-within:ring-secondary has-[:checked]:border-secondary has-[:checked]:bg-secondary-fixed/20 has-[:checked]:text-on-secondary-fixed">
+                    <input class="sr-only" name="service_needed" type="radio" value="Technical Audit" />
+                    <span class="text-xs font-semibold select-none flex items-center gap-1.5">
+                      <span class="size-1.5 rounded-full bg-secondary"></span>
+                      Technical Audit
+                    </span>
+                  </label>
+                  <label
+                    class="relative flex cursor-pointer rounded-lg border border-outline-variant p-3 hover:bg-surface-container-low transition focus-within:ring-2 focus-within:ring-secondary has-[:checked]:border-secondary has-[:checked]:bg-secondary-fixed/20 has-[:checked]:text-on-secondary-fixed">
+                    <input class="sr-only" name="service_needed" type="radio" value="Multi-disciplinary" />
+                    <span class="text-xs font-semibold select-none flex items-center gap-1.5">
+                      <span class="size-1.5 rounded-full bg-secondary"></span>
+                      End-to-End Build
+                    </span>
+                  </label>
+                </div>
+              </div>
+              <!-- Estimated Budget Range Selector -->
+              <div class="space-y-3">
+                <label class="block text-xs font-semibold text-on-surface">
+                  03. Estimated Budget Range <span aria-hidden="true" class="text-error">*</span>
+                </label>
+                <div aria-label="Estimated Budget" class="grid grid-cols-2 sm:grid-cols-4 gap-2.5" role="radiogroup">
+                  <label
+                    class="relative flex flex-col items-center justify-center p-3 rounded-lg border border-outline-variant cursor-pointer hover:bg-surface-container-low transition focus-within:ring-2 focus-within:ring-secondary has-[:checked]:border-secondary has-[:checked]:bg-primary-container has-[:checked]:text-on-primary">
+                    <input class="sr-only" name="budget" type="radio" value="&lt;15k" />
+                    <span class="font-mono text-sm font-bold">&lt; $15k</span>
+                    <span class="text-[11px] opacity-80">Audit / POC</span>
+                  </label>
+                  <label
+                    class="relative flex flex-col items-center justify-center p-3 rounded-lg border border-outline-variant cursor-pointer hover:bg-surface-container-low transition focus-within:ring-2 focus-within:ring-secondary has-[:checked]:border-secondary has-[:checked]:bg-primary-container has-[:checked]:text-on-primary">
+                    <input checked="" class="sr-only" name="budget" type="radio" value="15k-30k" />
+                    <span class="font-mono text-sm font-bold">$15k – $30k</span>
+                    <span class="text-[11px] opacity-80">Core MVP</span>
+                  </label>
+                  <label
+                    class="relative flex flex-col items-center justify-center p-3 rounded-lg border border-outline-variant cursor-pointer hover:bg-surface-container-low transition focus-within:ring-2 focus-within:ring-secondary has-[:checked]:border-secondary has-[:checked]:bg-primary-container has-[:checked]:text-on-primary">
+                    <input class="sr-only" name="budget" type="radio" value="30k-75k" />
+                    <span class="font-mono text-sm font-bold">$30k – $75k</span>
+                    <span class="text-[11px] opacity-80">Full Platform</span>
+                  </label>
+                  <label
+                    class="relative flex flex-col items-center justify-center p-3 rounded-lg border border-outline-variant cursor-pointer hover:bg-surface-container-low transition focus-within:ring-2 focus-within:ring-secondary has-[:checked]:border-secondary has-[:checked]:bg-primary-container has-[:checked]:text-on-primary">
+                    <input class="sr-only" name="budget" type="radio" value="75k+" />
+                    <span class="font-mono text-sm font-bold">$75k+</span>
+                    <span class="text-[11px] opacity-80">Enterprise Scaled</span>
+                  </label>
+                </div>
+              </div>
+              <!-- Project Timeline Selector -->
+              <div class="space-y-3">
+                <label class="block text-xs font-semibold text-on-surface">
+                  04. Target Timeline <span aria-hidden="true" class="text-error">*</span>
+                </label>
+                <div aria-label="Project Timeline" class="grid grid-cols-2 sm:grid-cols-4 gap-2.5" role="radiogroup">
+                  <label
+                    class="relative flex items-center justify-center p-3 rounded-lg border border-outline-variant cursor-pointer hover:bg-surface-container-low transition focus-within:ring-2 focus-within:ring-secondary has-[:checked]:border-secondary has-[:checked]:bg-secondary-fixed/20 has-[:checked]:text-on-secondary-fixed">
+                    <input checked="" class="sr-only" name="timeline" type="radio" value="Immediately" />
+                    <span class="text-xs font-semibold">Immediately</span>
+                  </label>
+                  <label
+                    class="relative flex items-center justify-center p-3 rounded-lg border border-outline-variant cursor-pointer hover:bg-surface-container-low transition focus-within:ring-2 focus-within:ring-secondary has-[:checked]:border-secondary has-[:checked]:bg-secondary-fixed/20 has-[:checked]:text-on-secondary-fixed">
+                    <input class="sr-only" name="timeline" type="radio" value="1-3 months" />
+                    <span class="text-xs font-semibold">1–3 months</span>
+                  </label>
+                  <label
+                    class="relative flex items-center justify-center p-3 rounded-lg border border-outline-variant cursor-pointer hover:bg-surface-container-low transition focus-within:ring-2 focus-within:ring-secondary has-[:checked]:border-secondary has-[:checked]:bg-secondary-fixed/20 has-[:checked]:text-on-secondary-fixed">
+                    <input class="sr-only" name="timeline" type="radio" value="3-6 months" />
+                    <span class="text-xs font-semibold">3–6 months</span>
+                  </label>
+                  <label
+                    class="relative flex items-center justify-center p-3 rounded-lg border border-outline-variant cursor-pointer hover:bg-surface-container-low transition focus-within:ring-2 focus-within:ring-secondary has-[:checked]:border-secondary has-[:checked]:bg-secondary-fixed/20 has-[:checked]:text-on-secondary-fixed">
+                    <input class="sr-only" name="timeline" type="radio" value="Flexible" />
+                    <span class="text-xs font-semibold">Flexible</span>
+                  </label>
+                </div>
+              </div>
+              <!-- Detailed Project Description Textarea -->
+              <div class="space-y-2">
+                <div class="flex items-baseline justify-between">
+                  <label class="block text-xs font-semibold text-on-surface" for="projectDescription">
+                    05. Detailed Project Description <span aria-hidden="true" class="text-error">*</span>
+                  </label>
+                  <span class="text-[11px] text-on-surface-variant">Markdown supported</span>
+                </div>
+                <p class="text-xs text-on-surface-variant">
+                  Share your goals, current stack, or key challenges.
+                </p>
+                <textarea
+                  class="w-full rounded-xl border border-outline-variant bg-surface-container-lowest px-3.5 py-3 text-sm text-on-surface placeholder:text-outline focus:border-secondary focus:ring-2 focus:ring-secondary/30 outline-none transition font-mono leading-relaxed"
+                  id="projectDescription" name="projectDescription"
+                  placeholder="We are migrating our legacy monolith to a headless React/FastAPI architecture on AWS, needing distributed caching, robust authentication, and sub-100ms response times..."
+                  required="" rows="5"></textarea>
+              </div>
+              <!-- Submit & Assurance CTA Bar -->
+              <div
+                class="pt-4 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-outline-variant/30">
+                <div class="flex items-center gap-2 text-xs text-on-surface-variant">
+                  <span class="material-symbols-outlined text-secondary text-base">lock</span>
+                  <span class="font-medium">NDA &amp; IP protection guaranteed</span>
+                </div>
+                <button
+                  class="w-full sm:w-auto min-w-[200px] inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-primary-container text-on-primary font-headline-sm text-sm font-bold tracking-wide hover:bg-primary transition shadow-sm hover:shadow-[0_0_20px_rgba(11,36,94,0.5)] focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2"
+                  type="submit">
+                  <span>Submit Project Inquiry</span>
+                  <span class="material-symbols-outlined text-base">arrow_forward</span>
+                </button>
+              </div>
+            </form>
+            <!-- Success State Message (Triggered on Submit) -->
+            <div class="hidden py-12 text-center space-y-4" id="submission-success">
+              <div
+                class="size-16 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto mb-2">
+                <span class="material-symbols-outlined text-3xl">task_alt</span>
+              </div>
+              <h3 class="text-headline-md font-bold text-on-surface">Brief Received Successfully</h3>
+              <p class="text-body-md text-on-surface-variant max-w-md mx-auto">
+                Thank you. A Senior Technical Lead has received your inquiry and will review your technical stack
+                requirements within 24 business hours.
+              </p>
+              <div class="pt-4">
+                <button
+                  class="px-5 py-2.5 rounded-lg border border-outline-variant text-xs font-semibold text-on-surface hover:bg-surface-container transition"
+                  onclick="location.reload()">
+                  Submit another brief
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Technologies Section -->
+    <section
+      class="py-20 bg-surface-container-lowest border-y border-outline-variant/30 relative overflow-hidden animate-fade-in-up">
+      <!-- Background decorative elements -->
+      <div class="absolute -right-20 -top-20 w-72 h-72 bg-secondary/10 rounded-full blur-[80px] pointer-events-none">
+      </div>
+      <div class="absolute -left-20 -bottom-20 w-72 h-72 bg-primary/10 rounded-full blur-[80px] pointer-events-none">
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+        <div class="mb-14">
+          <span
+            class="text-xs font-bold uppercase tracking-widest text-secondary mb-3 block font-label-caps animate-pulse">Our
+            Tech Stack</span>
+          <h2
+            class="text-3xl md:text-5xl font-extrabold text-on-surface mb-5 tracking-tight hover:scale-105 transition-transform duration-500">
+            Technologies We Use</h2>
+          <p class="text-on-surface-variant text-lg max-w-2xl mx-auto leading-relaxed">
+            Leveraging modern, enterprise-grade tools and frameworks to deliver scalable, secure, and high-performance
+            solutions.
+          </p>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-4 md:gap-5 max-w-5xl mx-auto">
+          <span
+            class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default">
+            HTML
+          </span>
+          <span
+            class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-75">
+            CSS
+          </span>
+          <span
+            class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-100">
+            Bootstrap
+          </span>
+          <span
+            class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-150">
+            Flutter
+          </span>
+          <span
+            class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-primary hover:border-primary/50 hover:bg-primary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,98,160,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-200">
+            Java
+          </span>
+          <span
+            class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-primary hover:border-primary/50 hover:bg-primary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,98,160,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-300">
+            PHP
+          </span>
+          <span
+            class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-100">
+            Firebase
+          </span>
+          <span
+            class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-150">
+            Supabase
+          </span>
+          <span
+            class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-200">
+            MySQL
+          </span>
+          <span
+            class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-300">
+            WordPress
+          </span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Technical Verification Footer -->
+  <footer class="border-t border-outline-variant bg-surface-container-low py-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2"><a href="home.html" class="flex items-center gap-2"
+          aria-label="Apexify Home"><img src="images/logo.png" alt="Apexify Software Solutions"
+            class="h-9 w-auto object-contain"></a></div>
+      <p class="text-xs text-on-surface-variant font-code-sm">© 2025 Apexify. Rooted in architectural precision.</p>
+      <div class="flex gap-4 text-xs text-on-surface-variant">
+        <a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
+        <a class="hover:text-primary transition-colors" href="#">Terms of Service</a>
+        <a class="hover:text-primary transition-colors" href="#">Security Architecture</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

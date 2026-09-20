@@ -1,0 +1,417 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Apexify - Engineering &amp; Product Capabilities</title>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS -->
+  <!-- Tailwind CSS (Local Build) -->
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="bg-background text-on-surface font-body-md antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- Apexify Header / Navigation Anchor -->
+<header class="sticky top-0 z-50 bg-surface/95 backdrop-blur border-b border-outline-variant/30">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between whitespace-nowrap">
+<!-- Brand -->
+<a class="flex items-center gap-3 text-primary focus:outline-none" href="home.html"><img src="images/logo.png" alt="Apexify Software Solutions" class="h-10 w-auto object-contain"></a>
+<!-- Desktop Navigation Links -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors" href="services.html">Services</a>
+<a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors" href="why-us.html">Why Us</a>
+<a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors" href="our_work.html">Work</a>
+<a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors" href="process.html">Process</a>
+<a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors" href="solution.html">Architecture</a>
+</nav>
+<!-- CTAs -->
+<div class="flex items-center gap-3">
+<a class="hidden sm:inline-flex items-center justify-center rounded-lg h-10 px-4 bg-surface-container text-on-surface hover:bg-surface-container-high text-sm font-semibold border border-outline-variant/40 transition-colors" href="our_work.html">
+            View Our Work
+          </a>
+<a class="inline-flex items-center gap-1.5 justify-center rounded-lg h-10 px-4 bg-primary-container text-surface-container-lowest hover:bg-primary text-sm font-semibold tracking-[0.015em] shadow-sm transition-all" href="contacts.html">
+<span class="">Start a Project</span>
+<span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-24">
+<!-- Clean Editorial Hero Section -->
+<section class="relative w-full pt-40 pb-24 lg:pt-56 lg:pb-32 overflow-hidden mb-12 z-10 border-b border-gray-200 bg-[#F7F9FB]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+    <div class="inline-flex items-center gap-2 px-6 py-2 rounded-full bg-white border border-gray-200 text-on-surface-variant text-[11px] font-bold tracking-[0.2em] uppercase mb-8 shadow-sm">
+      Our Capabilities
+    </div>
+    <h1 class="text-5xl md:text-7xl font-serif text-[#1b1b1b] mb-10 leading-[1.1] tracking-tight">
+      End-to-End Enterprise Engineering &amp; <br/><span class="text-primary italic">Product Development</span>
+    </h1>
+    <p class="text-lg md:text-xl text-[#555555] max-w-3xl mx-auto leading-relaxed mb-0">
+      Apexify specializes in custom software development, modern web applications, and scalable cloud architecture. We build practical digital products that solve real business problems. Every engagement is rooted in architectural precision, high-performance execution, and measurable commercial outcomes.
+    </p>
+  </div>
+</section>
+<!-- Filter Pills Section -->
+<section aria-label="Services filter" class="mb-14">
+<div class="flex flex-wrap items-center justify-center gap-2.5 max-w-4xl mx-auto" id="service-filters">
+  <button data-filter="all" class="filter-btn px-4 py-2 rounded-full text-xs font-semibold bg-primary text-on-primary transition-all shadow-sm flex items-center gap-2"><span>All Services</span><span class="text-[11px] bg-white/20 px-1.5 py-0.5 rounded-full font-code-sm">7</span></button>
+  <button data-filter="static" class="filter-btn px-4 py-2 rounded-full text-xs font-medium bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-all border border-outline-variant/60">Static Websites</button>
+  <button data-filter="dynamic" class="filter-btn px-4 py-2 rounded-full text-xs font-medium bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-all border border-outline-variant/60">Dynamic Web Apps</button>
+  <button data-filter="ecommerce" class="filter-btn px-4 py-2 rounded-full text-xs font-medium bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-all border border-outline-variant/60">E-Commerce</button>
+  <button data-filter="mobile" class="filter-btn px-4 py-2 rounded-full text-xs font-medium bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-all border border-outline-variant/60">Mobile Apps</button>
+  <button data-filter="cloud" class="filter-btn px-4 py-2 rounded-full text-xs font-medium bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-all border border-outline-variant/60">Cloud &amp; APIs</button>
+  <button data-filter="design" class="filter-btn px-4 py-2 rounded-full text-xs font-medium bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-all border border-outline-variant/60">Design &amp; UI/UX</button>
+  <button data-filter="audit" class="filter-btn px-4 py-2 rounded-full text-xs font-medium bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-all border border-outline-variant/60">Audit &amp; Quality</button>
+</div>
+</section>
+<!-- 6 In-Depth Detailed Service Cards Grid (Clean Editorial) -->
+<section class="flex flex-col gap-12 mb-24 max-w-5xl mx-auto" id="services">
+  <!-- Service 1 -->
+  <article data-category="static" class="flex flex-col md:flex-row gap-8 py-10 border-b border-gray-200">
+    <div class="md:w-1/3">
+      <span class="text-4xl font-serif text-[#1b1b1b] mb-4 block">01</span>
+      <h2 class="text-2xl font-bold text-[#1b1b1b]">High-Speed Web</h2>
+    </div>
+    <div class="md:w-2/3">
+      <p class="text-[#555555] text-lg leading-relaxed mb-6">Ultra-fast static websites, enterprise landing pages, and Jamstack portals engineered for instant global page loads, unbeatable SEO dominance, and 100/100 Lighthouse performance.</p>
+      <div class="flex flex-wrap gap-2">
+        <span class="px-3 py-1 bg-[#F7F9FB] border border-gray-200 text-[#555555] rounded-full text-xs font-semibold">Next.js SSG</span>
+        <span class="px-3 py-1 bg-[#F7F9FB] border border-gray-200 text-[#555555] rounded-full text-xs font-semibold">Astro</span>
+        <span class="px-3 py-1 bg-[#F7F9FB] border border-gray-200 text-[#555555] rounded-full text-xs font-semibold">Tailwind</span>
+      </div>
+    </div>
+  </article>
+
+  <!-- Service 2 -->
+  <article data-category="dynamic" class="flex flex-col md:flex-row gap-8 py-10 border-b border-gray-200">
+    <div class="md:w-1/3">
+      <span class="text-4xl font-serif text-[#1b1b1b] mb-4 block">02</span>
+      <h2 class="text-2xl font-bold text-[#1b1b1b]">Core Engineering</h2>
+    </div>
+    <div class="md:w-2/3">
+      <p class="text-[#555555] text-lg leading-relaxed mb-6">Interactive full-stack web applications, multi-tenant SaaS platforms, customer portals, and internal enterprise dashboards with live database synchronization and role-based workflows.</p>
+      <div class="flex flex-wrap gap-2">
+        <span class="px-3 py-1 bg-[#F7F9FB] border border-gray-200 text-[#555555] rounded-full text-xs font-semibold">React</span>
+        <span class="px-3 py-1 bg-[#F7F9FB] border border-gray-200 text-[#555555] rounded-full text-xs font-semibold">Node.js</span>
+        <span class="px-3 py-1 bg-[#F7F9FB] border border-gray-200 text-[#555555] rounded-full text-xs font-semibold">PostgreSQL</span>
+      </div>
+    </div>
+  </article>
+
+  <!-- Service 3 -->
+  <article data-category="ecommerce" class="flex flex-col md:flex-row gap-8 py-10 border-b border-gray-200">
+    <div class="md:w-1/3">
+      <span class="text-4xl font-serif text-[#1b1b1b] mb-4 block">03</span>
+      <h2 class="text-2xl font-bold text-[#1b1b1b]">E-commerce</h2>
+    </div>
+    <div class="md:w-2/3">
+      <p class="text-[#555555] text-lg leading-relaxed mb-6">Frictionless multi-currency checkout pathways, automated inventory synchronization, and blazing sub-second product pages built for high volume.</p>
+      <div class="flex flex-wrap gap-2">
+        <span class="px-3 py-1 bg-[#F7F9FB] border border-gray-200 text-[#555555] rounded-full text-xs font-semibold">Shopify Headless</span>
+        <span class="px-3 py-1 bg-[#F7F9FB] border border-gray-200 text-[#555555] rounded-full text-xs font-semibold">Stripe</span>
+      </div>
+    </div>
+  </article>
+</section>
+<!-- Technical Engagement Models Section -->
+<!-- SEO Section -->
+<section class="mb-20 bg-surface-container-low rounded-2xl p-8 md:p-12 border border-outline-variant/30 animate-fade-in-up">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-2xl font-bold text-primary mb-4 tracking-tight">Why Choose Our Custom Software Engineering Services?</h2>
+    <p class="text-on-surface-variant text-sm md:text-base leading-relaxed mb-6">
+      At Apexify, we understand that off-the-shelf solutions often fail to meet the complex demands of high-growth enterprises. Our custom software development services are tailored to bridge the gap between your unique business requirements and scalable technological execution. By leveraging modern tech stacks—such as React, Node.js, Go, and AWS—we engineer solutions that are not only performant but inherently secure.
+    </p>
+    <p class="text-on-surface-variant text-sm md:text-base leading-relaxed">
+      Whether you need an ultra-fast headless e-commerce portal, a robust internal SaaS dashboard, or a cross-platform mobile application, our team of dedicated senior engineers ensures your product is built on a foundation of clean code and architectural best practices.
+    </p>
+  </div>
+</section>
+
+<section class="mb-24" id="engagement-models">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<p class="text-secondary font-semibold text-xs tracking-widest uppercase mb-2 font-code-sm">HOW WE WORK</p>
+<h2 class="text-headline-lg text-primary font-bold tracking-tight">Technical Engagement Models</h2>
+<p class="text-body-lg text-on-surface-variant mt-3">Transparent collaboration structures designed to match your product phase and velocity demands.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Model 1 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-6 flex flex-col justify-between hover:border-secondary hover:shadow-lg hover:-translate-y-1 transition-all duration-300 animate-fade-in-up">
+<div>
+<div class="size-10 rounded-lg bg-surface-container-low flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-xl" data-icon="group">group</span>
+</div>
+<h3 class="text-headline-sm text-primary mb-2">Dedicated Product Team</h3>
+<p class="text-body-md text-on-surface-variant mb-5">
+              Full-stack autonomous squad embedded into your company. Complete with senior engineers, product designers, and a technical project lead.
+            </p>
+<ul class="space-y-2.5 text-xs text-on-surface border-t border-surface-container pt-4">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check_circle">check_circle</span>
+<span class="">Direct Slack &amp; Jira sync</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check_circle">check_circle</span>
+<span class="">Continuous release cadence</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check_circle">check_circle</span>
+<span class="">Predictable monthly retainers</span>
+</li>
+</ul>
+</div>
+<div class="mt-8 pt-4 border-t border-surface-container">
+<span class="text-xs text-on-surface-variant font-code-sm">Best for: Rapid product scaleups</span>
+</div>
+</div>
+<!-- Model 2 -->
+<div class="bg-surface-container-lowest border-2 border-primary rounded-xl p-6 flex flex-col justify-between relative shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-fade-in-up" style="animation-delay: 100ms;">
+<div class="absolute -top-3 left-6 bg-primary text-on-primary text-[10px] uppercase font-bold tracking-widest px-2.5 py-0.5 rounded-full font-code-sm">
+            Most Popular
+          </div>
+<div>
+<div class="size-10 rounded-lg bg-secondary-fixed/50 flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined text-xl" data-icon="rocket_launch">rocket_launch</span>
+</div>
+<h3 class="text-headline-sm text-primary mb-2">Scoped Project Sprint</h3>
+<p class="text-body-md text-on-surface-variant mb-5">
+              Fixed-scope, milestone-driven execution for new MVPs, major platform overhauls, or complex third-party API integrations.
+            </p>
+<ul class="space-y-2.5 text-xs text-on-surface border-t border-surface-container pt-4">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check_circle">check_circle</span>
+<span class="">Clear deliverable schedule</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check_circle">check_circle</span>
+<span class="">Guaranteed budget ceiling</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check_circle">check_circle</span>
+<span class="">Defined acceptance criteria</span>
+</li>
+</ul>
+</div>
+<div class="mt-8 pt-4 border-t border-surface-container">
+<span class="text-xs text-on-surface-variant font-code-sm">Best for: New products &amp; milestones</span>
+</div>
+</div>
+<!-- Model 3 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-6 flex flex-col justify-between hover:border-secondary hover:shadow-lg hover:-translate-y-1 transition-all duration-300 animate-fade-in-up" style="animation-delay: 200ms;">
+<div>
+<div class="size-10 rounded-lg bg-surface-container-low flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-xl" data-icon="psychology">psychology</span>
+</div>
+<h3 class="text-headline-sm text-primary mb-2">Technical Advisory</h3>
+<p class="text-body-md text-on-surface-variant mb-5">
+              High-level fractional CTO guidance, code health audits, cloud infrastructure planning, and investor technical due diligence support.
+            </p>
+<ul class="space-y-2.5 text-xs text-on-surface border-t border-surface-container pt-4">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check_circle">check_circle</span>
+<span class="">Architecture blueprint review</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check_circle">check_circle</span>
+<span class="">Hiring &amp; team assessment</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check_circle">check_circle</span>
+<span class="">Security &amp; compliance posture</span>
+</li>
+</ul>
+</div>
+<div class="mt-8 pt-4 border-t border-surface-container">
+<span class="text-xs text-on-surface-variant font-code-sm">Best for: Founders &amp; Executive Tech Leads</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Secondary CTA: Start a Project Consultation -->
+</main>
+<section class="w-full bg-primary py-20 border-y border-outline-variant/30 relative overflow-hidden group animate-fade-in-up" id="consultation">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="w-full relative overflow-hidden">
+  <!-- Ambient glowing backgrounds -->
+  <div class="absolute inset-0 -z-0 bg-[radial-gradient(ellipse_at_top_right,rgba(59,218,231,0.15),transparent_60%)] group-hover:bg-[radial-gradient(ellipse_at_top_right,rgba(59,218,231,0.25),transparent_70%)] transition-all duration-700"></div>
+  <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-secondary/30 blur-[120px] rounded-full animate-pulse group-hover:bg-secondary/50 transition-colors duration-700 pointer-events-none"></div>
+  
+  <div class="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+    <!-- Left Column: Content -->
+    <div class="max-w-xl">
+      <div class="inline-flex items-center gap-2 mb-6 px-3 py-1 rounded-full bg-surface-container/10 border border-outline-variant/20 backdrop-blur-sm">
+        <span class="size-2 rounded-full bg-tertiary-fixed animate-pulse"></span>
+        <span class="text-[10px] font-bold uppercase tracking-widest text-tertiary-fixed font-code-sm">Direct Architecture Session</span>
+      </div>
+      <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-surface-container-lowest mb-6 tracking-tight leading-tight">
+        Build systems that scale.
+      </h2>
+      <p class="text-primary-fixed-dim text-lg md:text-xl mb-10 leading-relaxed max-w-lg">
+        Tell us about your product challenge or technical roadmap. We’ll schedule a 30-minute scoping session with a lead engineer to outline realistic milestones.
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+        <a class="px-8 py-4 bg-tertiary-fixed text-on-tertiary-fixed hover:bg-tertiary-fixed-dim hover:shadow-[0_0_25px_rgba(127,244,255,0.6)] font-bold text-base rounded-xl transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto" href="contacts.html">
+          <span>Schedule Consultation</span>
+          <span class="material-symbols-outlined text-[20px]" data-icon="arrow_forward">arrow_forward</span>
+        </a>
+        <a class="px-8 py-4 bg-transparent border border-outline-variant/30 text-surface-container-lowest hover:bg-surface-container-lowest/10 font-bold text-base rounded-xl transition-all duration-300 flex items-center justify-center w-full sm:w-auto" href="our_work.html">
+          View Case Studies
+        </a>
+      </div>
+      
+      <p class="text-xs text-primary-fixed-dim/70 mt-6 font-code-sm flex items-center gap-2">
+        <span class="material-symbols-outlined text-[14px]" data-icon="verified">verified</span>
+        No sales reps. Direct discussion with Senior Technical Leadership.
+      </p>
+    </div>
+
+    <!-- Right Column: Visual Mockup -->
+    <div class="relative hidden lg:flex items-center justify-center h-full min-h-[380px]">
+      <!-- Floating decorative elements -->
+      <!-- Card 1 -->
+      <div class="absolute right-4 top-4 w-72 bg-surface-container-lowest/10 backdrop-blur-xl border border-surface-container-lowest/20 p-6 rounded-2xl shadow-2xl hover:-translate-y-2 transition-transform duration-500 animate-fade-in-up" style="animation-delay: 200ms; z-index: 3;">
+        <div class="flex items-center gap-4 mb-5">
+          <div class="size-10 rounded-full bg-secondary/30 flex items-center justify-center">
+            <span class="material-symbols-outlined text-secondary-fixed text-lg" data-icon="dns">dns</span>
+          </div>
+          <div>
+            <div class="h-2.5 w-24 bg-surface-container-lowest/60 rounded-full mb-2"></div>
+            <div class="h-1.5 w-16 bg-surface-container-lowest/30 rounded-full"></div>
+          </div>
+        </div>
+        <div class="space-y-3">
+          <div class="h-2 w-full bg-surface-container-lowest/20 rounded-full"></div>
+          <div class="h-2 w-4/5 bg-surface-container-lowest/20 rounded-full"></div>
+          <div class="h-2 w-5/6 bg-surface-container-lowest/20 rounded-full"></div>
+        </div>
+      </div>
+
+      <!-- Card 2 (Overlapping) -->
+      <div class="absolute left-0 bottom-8 w-80 bg-primary-container/50 backdrop-blur-md border border-primary-fixed/20 p-6 rounded-2xl shadow-[0_20px_40px_-15px_rgba(0,0,0,0.5)] hover:-translate-y-2 transition-transform duration-500 animate-fade-in-up" style="animation-delay: 400ms; z-index: 2;">
+        <div class="flex items-center justify-between mb-6">
+          <div class="h-2 w-20 bg-primary-fixed/60 rounded-full"></div>
+          <span class="material-symbols-outlined text-primary-fixed text-lg" data-icon="show_chart">show_chart</span>
+        </div>
+        <div class="flex items-end gap-3 h-24 mt-2">
+          <div class="w-1/5 bg-primary-fixed/30 rounded-t-md h-1/3"></div>
+          <div class="w-1/5 bg-primary-fixed/40 rounded-t-md h-1/2 hover:h-2/3 transition-all duration-300"></div>
+          <div class="w-1/5 bg-primary-fixed/60 rounded-t-md h-3/4 hover:h-5/6 transition-all duration-300"></div>
+          <div class="w-1/5 bg-tertiary-fixed/90 rounded-t-md h-full shadow-[0_0_15px_rgba(127,244,255,0.4)]"></div>
+        </div>
+      </div>
+
+      <!-- Connecting Lines (SVG) -->
+      <svg class="absolute inset-0 w-full h-full text-outline-variant/20 -z-1" fill="none" viewBox="0 0 400 400">
+        <path stroke="currentColor" stroke-dasharray="4 4" stroke-width="2" d="M80,250 C180,250 150,120 280,120"></path>
+        <circle cx="80" cy="250" r="5" fill="currentColor"></circle>
+        <circle cx="280" cy="120" r="6" fill="#7ff4ff" class="animate-pulse"></circle>
+      </svg>
+    </div>
+  </div>
+  </div>
+</section>
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Technologies Section -->
+<section class="py-20 bg-surface-container-lowest border-y border-outline-variant/30 relative overflow-hidden animate-fade-in-up">
+  <!-- Background decorative elements -->
+  <div class="absolute -right-20 -top-20 w-72 h-72 bg-secondary/10 rounded-full blur-[80px] pointer-events-none"></div>
+  <div class="absolute -left-20 -bottom-20 w-72 h-72 bg-primary/10 rounded-full blur-[80px] pointer-events-none"></div>
+  
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+    <div class="mb-14">
+      <span class="text-xs font-bold uppercase tracking-widest text-secondary mb-3 block font-label-caps animate-pulse">Our Tech Stack</span>
+      <h2 class="text-3xl md:text-5xl font-extrabold text-on-surface mb-5 tracking-tight hover:scale-105 transition-transform duration-500">Technologies We Use</h2>
+      <p class="text-on-surface-variant text-lg max-w-2xl mx-auto leading-relaxed">
+        Leveraging modern, enterprise-grade tools and frameworks to deliver scalable, secure, and high-performance solutions.
+      </p>
+    </div>
+    
+    <div class="flex flex-wrap justify-center gap-4 md:gap-5 max-w-5xl mx-auto">
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default">
+        HTML
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-75">
+        CSS
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-100">
+        Bootstrap
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-150">
+        Flutter
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-primary hover:border-primary/50 hover:bg-primary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,98,160,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-200">
+        Java
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-primary hover:border-primary/50 hover:bg-primary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,98,160,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-300">
+        PHP
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-100">
+        Firebase
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-150">
+        Supabase
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-200">
+        MySQL
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-300">
+        WordPress
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- Clean Minimalist Footer -->
+<footer class="border-t border-outline-variant bg-surface-container-low py-10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-2"><a href="home.html" class="flex items-center gap-2" aria-label="Apexify Home"><img src="images/logo.png" alt="Apexify Software Solutions" class="h-9 w-auto object-contain"></a></div>
+<p class="text-xs text-on-surface-variant font-code-sm">© 2025 Apexify. Rooted in architectural precision.</p>
+<div class="flex gap-4 text-xs text-on-surface-variant">
+<a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="hover:text-primary transition-colors" href="#">Security Architecture</a>
+</div>
+</div>
+</footer>
+
+
+<!-- Filter Script -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const serviceCards = document.querySelectorAll('#services article');
+    
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Remove active state from all buttons
+        filterBtns.forEach(b => {
+          b.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+          b.classList.add('bg-surface-container-low', 'text-on-surface-variant');
+        });
+        
+        // Add active state to clicked button
+        btn.classList.remove('bg-surface-container-low', 'text-on-surface-variant');
+        btn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+        
+        const filter = btn.getAttribute('data-filter');
+        
+        // Filter cards
+        serviceCards.forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.style.display = 'flex';
+            // Trigger animation
+            card.style.animation = 'none';
+            card.offsetHeight; // trigger reflow
+            card.style.animation = null;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  });
+</script>
+</body>
+</html>

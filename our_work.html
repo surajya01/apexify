@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Apexify — Case Studies &amp; Selected Work</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  <!-- Tailwind CSS (Local Build) -->
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="bg-background text-on-background font-body-md antialiased min-h-screen flex flex-col selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- Header / Navigation (Destination screen: Preserving exact shared TopNavBar component) -->
+<header class="sticky top-0 z-50 bg-surface/95 backdrop-blur border-b border-outline-variant/30">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between whitespace-nowrap">
+<!-- Brand -->
+<a class="flex items-center gap-3 text-primary focus:outline-none" href="home.html"><img src="images/logo.png" alt="Apexify Software Solutions" class="h-10 w-auto object-contain"></a>
+<!-- Desktop Navigation Links -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors" href="services.html">Services</a>
+<a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors" href="why-us.html">Why Us</a>
+<a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors" href="our_work.html">Work</a>
+<a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors" href="process.html">Process</a>
+<a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors" href="solution.html">Architecture</a>
+</nav>
+<!-- CTAs -->
+<div class="flex items-center gap-3">
+<a class="hidden sm:inline-flex items-center justify-center rounded-lg h-10 px-4 bg-surface-container text-on-surface hover:bg-surface-container-high text-sm font-semibold border border-outline-variant/40 transition-colors" href="our_work.html">
+            View Our Work
+          </a>
+<a class="inline-flex items-center gap-1.5 justify-center rounded-lg h-10 px-4 bg-primary-container text-surface-container-lowest hover:bg-primary text-sm font-semibold tracking-[0.015em] shadow-sm transition-all" href="contacts.html">
+<span class="">Start a Project</span>
+<span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative py-24 md:py-32 overflow-hidden bg-surface-container-lowest">
+  <!-- Glowing orbs -->
+  <div class="absolute top-0 right-1/4 w-[400px] h-[400px] bg-primary/10 rounded-full blur-[100px] pointer-events-none"></div>
+  <div class="absolute bottom-0 left-1/4 w-[300px] h-[300px] bg-secondary/10 rounded-full blur-[80px] pointer-events-none"></div>
+  
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+    <h1 class="text-5xl md:text-7xl font-black text-on-surface mb-8 leading-tight tracking-tight animate-fade-in-up">
+      Proven software built for <br/><span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">ambitious companies.</span>
+    </h1>
+    <p class="text-xl md:text-2xl text-on-surface-variant font-medium leading-relaxed max-w-3xl mx-auto mb-10 animate-fade-in-up" style="animation-delay: 0.1s;">
+      Real problem-solving. Real architecture. Here is how we help clients turn complex requirements into robust digital products.
+    </p>
+  </div>
+</section>
+
+<!-- Filter Tabs Component -->
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap items-center justify-center gap-3 relative z-10 animate-fade-in-up" style="animation-delay: 0.2s;">
+  <button class="filter-tab active px-5 py-2.5 rounded-full text-sm font-bold bg-primary text-on-primary shadow-lg transition-all duration-300" data-category="all">All Work</button>
+  <button class="filter-tab px-5 py-2.5 rounded-full text-sm font-semibold bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all duration-300" data-category="enterprise">Enterprise SaaS</button>
+  <button class="filter-tab px-5 py-2.5 rounded-full text-sm font-semibold bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all duration-300" data-category="fintech">Fintech</button>
+  <button class="filter-tab px-5 py-2.5 rounded-full text-sm font-semibold bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all duration-300" data-category="healthcare">Healthcare &amp; Logistics</button>
+  <button class="filter-tab px-5 py-2.5 rounded-full text-sm font-semibold bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all duration-300" data-category="consumer">Consumer Platforms</button>
+</div>
+
+<!-- Main Case Studies Grid -->
+<main class="w-full flex-1 py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+    
+    <!-- Case Study 1: Veritas Health Portal -->
+    <article class="case-study-card group cursor-pointer bg-surface-container-lowest border border-outline-variant/30 rounded-3xl overflow-hidden hover:shadow-2xl hover:border-primary/30 hover:-translate-y-2 transition-all duration-500" data-group="healthcare">
+      <div class="overflow-hidden relative bg-surface-container-low h-[400px]">
+        <div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 pointer-events-none"></div>
+        <img class="w-full h-full object-cover object-top mix-blend-multiply group-hover:scale-105 transition-transform duration-700 relative z-0" alt="Veritas Health" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCC-FRpeNFKZB-HAL4TdxyEll1XMMCrRqJ1E1S8rLWLNWqkiM60tZVZ9QqPiV8LUJAjagGFOl49DI8QoTw-DXo4GixUf-wI8bombPMl3WgJ-MeHQn5bZMmc8IIQL1Z8CXNq3Cw6LwnvC-NlLiDLZA9WM3uKHuMyEtilT_yIKWvJehdXHkKaxLWSKJ4o_Nk3HtSWyS2VWPla_wA7THCxbAmJrd26iaw563FULKtWPCeOB8XN5ZYqyrqp"/>
+      </div>
+      <div class="p-8 relative">
+        <span class="inline-block px-3 py-1 mb-4 rounded-lg bg-secondary/10 text-secondary text-xs font-bold uppercase tracking-wider font-code-sm">Healthcare &amp; HIPAA</span>
+        <h2 class="text-3xl font-bold text-on-surface mb-3 group-hover:text-primary transition-colors tracking-tight">Veritas Health Portal</h2>
+        <p class="text-on-surface-variant text-lg leading-relaxed">
+          End-to-end encrypted web portal featuring automated identity verification and real-time EHR integration via FHIR standards.
+        </p>
+      </div>
+    </article>
+
+    <!-- Case Study 2: ApexFlow Supply Chain ERP -->
+    <article class="case-study-card group cursor-pointer bg-surface-container-lowest border border-outline-variant/30 rounded-3xl overflow-hidden hover:shadow-2xl hover:border-secondary/30 hover:-translate-y-2 transition-all duration-500" data-group="enterprise healthcare">
+      <div class="overflow-hidden relative bg-surface-container-low h-[400px]">
+        <div class="absolute inset-0 bg-gradient-to-t from-secondary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 pointer-events-none"></div>
+        <img class="w-full h-full object-cover object-top mix-blend-multiply group-hover:scale-105 transition-transform duration-700 relative z-0" alt="ApexFlow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAeAPdbYnH8WMti6LkdNkvhT3VpqNmR4QupH948jj250zItwHh0ShspIw6j3Z6EWtAt5Tl4x6Fj7nSi824h7y1UJ1ocub59OODUI5ds_W3E_yo1mtUclReEctY6rRAenmY0VwIdCGUtqsKKZQVCYc6wr-yCyn6eWSZZ1EfD_ycTBpZS5AlO5dA6afAwPf4Mqk5lSFIzhIBjA2lUPVIFfpLQAxeCsQXhw6laMsC71PnKvPdcZCFKDTPa"/>
+      </div>
+      <div class="p-8 relative">
+        <span class="inline-block px-3 py-1 mb-4 rounded-lg bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider font-code-sm">Enterprise Logistics</span>
+        <h2 class="text-3xl font-bold text-on-surface mb-3 group-hover:text-secondary transition-colors tracking-tight">ApexFlow Supply Chain ERP</h2>
+        <p class="text-on-surface-variant text-lg leading-relaxed">
+          Real-time inventory tracking dashboard with predictive demand forecasting and event-driven microservices architecture.
+        </p>
+      </div>
+    </article>
+
+    <!-- Case Study 3: Kinetix Financial Analytics -->
+    <article class="case-study-card group cursor-pointer bg-surface-container-lowest border border-outline-variant/30 rounded-3xl overflow-hidden hover:shadow-2xl hover:border-tertiary/30 hover:-translate-y-2 transition-all duration-500" data-group="fintech enterprise">
+      <div class="overflow-hidden relative bg-surface-container-low h-[400px]">
+        <div class="absolute inset-0 bg-gradient-to-t from-tertiary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 pointer-events-none"></div>
+        <img class="w-full h-full object-cover object-top mix-blend-multiply group-hover:scale-105 transition-transform duration-700 relative z-0" alt="Kinetix" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQKBQH423B_bfWzDbzm9ZIquRqqd0a5IBjhIQCuU_cGsijqrM8t4J3lZDjQDhfDW7BVoNFdqq0zORz0nTd0dVBvACc8IQBAYj237o1F0TvtgvU-zjupsqNM5EAS_W5XiSYqoG8X0nTpsAIAtyactCNatNGJjzbLqxihbakVuQ8YlRhCd-Mhgn5Byp1-iemPbcxTen9RIfR_oEJd3ABkS15YsSqCjt2v-TazDXRNS_wk1TBiBtwoyz2"/>
+      </div>
+      <div class="p-8 relative">
+        <span class="inline-block px-3 py-1 mb-4 rounded-lg bg-tertiary/10 text-tertiary text-xs font-bold uppercase tracking-wider font-code-sm">Fintech &amp; Wealth</span>
+        <h2 class="text-3xl font-bold text-on-surface mb-3 group-hover:text-tertiary transition-colors tracking-tight">Kinetix Financial Analytics</h2>
+        <p class="text-on-surface-variant text-lg leading-relaxed">
+          WebGL-accelerated interactive charting suite with a distributed multithreaded calculation engine.
+        </p>
+      </div>
+    </article>
+
+    <!-- Case Study 4: OmniRetail Headless Commerce -->
+    <article class="case-study-card group cursor-pointer bg-surface-container-lowest border border-outline-variant/30 rounded-3xl overflow-hidden hover:shadow-2xl hover:border-primary/30 hover:-translate-y-2 transition-all duration-500" data-group="consumer">
+      <div class="overflow-hidden relative bg-surface-container-low h-[400px]">
+        <div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 pointer-events-none"></div>
+        <img class="w-full h-full object-cover object-top mix-blend-multiply group-hover:scale-105 transition-transform duration-700 relative z-0" alt="OmniRetail" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNiGaVuBskuEvyrk3UU86O5Ogn-KNGaVZvIhXB7f8k4gfyDLr1aFaQ0tbGlDBKKvRQ3ZkbRGwZFrb5530knweOm25MKmt2yJAWdhtlfz7CufoNGsXIunulxlx6F1BCMoNrXOI3ueWUGAOyK5nMCvbUAZSt3vkrazc98ZuKAqup6iQjISe9MqVwPZt_VJVMUup0kZjc67gO_h-BCjuwmkW64dZ6-Yi1JI3HTV2zGbSNnx0YxSyfeG66"/>
+      </div>
+      <div class="p-8 relative">
+        <span class="inline-block px-3 py-1 mb-4 rounded-lg bg-secondary/10 text-secondary text-xs font-bold uppercase tracking-wider font-code-sm">Global E-Commerce</span>
+        <h2 class="text-3xl font-bold text-on-surface mb-3 group-hover:text-primary transition-colors tracking-tight">OmniRetail Headless Commerce</h2>
+        <p class="text-on-surface-variant text-lg leading-relaxed">
+          Custom headless Next.js storefront powered by Shopify Storefront API and global edge-distributed caching.
+        </p>
+      </div>
+    </article>
+
+  </div>
+</main>
+<!-- End Case Studies Grid -->
+      
+<!-- SEO Context Section -->
+<section class="py-24 relative overflow-hidden bg-gradient-to-br from-primary via-[#001f5c] to-tertiary text-white group">
+  <!-- Animated Geometric Background -->
+  <div class="absolute inset-0 flex items-center justify-center opacity-10 pointer-events-none overflow-hidden">
+    <div class="absolute w-[800px] h-[800px] border-[1px] border-white rounded-full animate-[spin_30s_linear_infinite] border-dashed"></div>
+    <div class="absolute w-[600px] h-[600px] border-[2px] border-secondary-fixed rounded-full animate-[spin_20s_linear_infinite_reverse]"></div>
+  </div>
+  
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-16 items-start relative z-10">
+    <div class="animate-fade-in-up">
+      <h2 class="text-4xl lg:text-5xl font-black mb-8 leading-tight tracking-tight">
+        Driving Digital Transformation Through Custom Software
+      </h2>
+      <p class="text-white/80 text-lg leading-relaxed mb-6 font-medium">
+        At Apexify Software Solutions, we don't just build apps; we architect robust digital platforms tailored for scale. Our portfolio highlights our deep expertise in custom software development, mobile app engineering, and cloud-native architecture. 
+      </p>
+      <p class="text-white/80 text-lg leading-relaxed font-medium">
+        Whether you need a secure healthcare portal, a high-frequency fintech dashboard, or an enterprise-grade SaaS product, our engineering processes ensure lightning-fast performance and unparalleled reliability.
+      </p>
+    </div>
+    <div class="flex flex-col gap-6 animate-fade-in-up" style="animation-delay: 0.2s;">
+      <!-- Floating Glass Card 1 -->
+      <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300 shadow-xl">
+        <h3 class="text-2xl font-bold mb-3 flex items-center gap-3">
+          <span class="material-symbols-outlined text-secondary-fixed">cloud_sync</span>
+          Scalable Cloud Architecture
+        </h3>
+        <p class="text-white/80 leading-relaxed font-medium">We leverage AWS, Google Cloud, and edge computing to build resilient backend systems. Our decoupled microservices architectures guarantee zero downtime even during massive traffic spikes.</p>
+      </div>
+      <!-- Floating Glass Card 2 -->
+      <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300 shadow-xl">
+        <h3 class="text-2xl font-bold mb-3 flex items-center gap-3">
+          <span class="material-symbols-outlined text-secondary-fixed">security</span>
+          Enterprise-Grade Security
+        </h3>
+        <p class="text-white/80 leading-relaxed font-medium">From HIPAA-compliant healthcare apps to secure fintech dashboards, we integrate zero-trust security models, end-to-end encryption, and rigorous penetration testing into every deployment.</p>
+      </div>
+      <!-- Floating Glass Card 3 -->
+      <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300 shadow-xl">
+        <h3 class="text-2xl font-bold mb-3 flex items-center gap-3">
+          <span class="material-symbols-outlined text-secondary-fixed">speed</span>
+          Unmatched UI/UX Performance
+        </h3>
+        <p class="text-white/80 leading-relaxed font-medium">User experience goes beyond aesthetics. We optimize for Core Web Vitals, ensuring sub-second load times and fluid 60fps animations across all modern browsers and mobile devices.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Technologies Section (Modern Pills) -->
+<section class="py-20 bg-surface-container-lowest border-b border-outline-variant/30 relative overflow-hidden">
+  <!-- Glowing orbs -->
+  <div class="absolute -right-20 -top-20 w-72 h-72 bg-secondary/10 rounded-full blur-[80px] pointer-events-none"></div>
+  <div class="absolute -left-20 -bottom-20 w-72 h-72 bg-primary/10 rounded-full blur-[80px] pointer-events-none"></div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+    <h2 class="text-4xl md:text-5xl font-black text-on-surface mb-6 tracking-tight">Technologies We Use</h2>
+    <p class="text-on-surface-variant text-lg max-w-2xl mx-auto mb-14 leading-relaxed font-medium">
+      Leveraging modern, enterprise-grade tools and frameworks to deliver scalable, secure, and high-performance solutions.
+    </p>
+    
+    <div class="flex flex-wrap justify-center gap-4 max-w-5xl mx-auto">
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default">HTML</span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-75">CSS</span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-100">Bootstrap</span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-150">Flutter</span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-primary hover:border-primary/50 hover:bg-primary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,98,160,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-200">Java</span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-primary hover:border-primary/50 hover:bg-primary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,98,160,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-300">PHP</span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-100">Firebase</span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-150">Supabase</span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-200">MySQL</span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-300">WordPress</span>
+    </div>
+  </div>
+</section>
+
+<!-- Immersive CTA Section -->
+<section class="py-24 relative w-full overflow-hidden bg-surface-container-lowest group">
+  <!-- Glowing orbs -->
+  <div class="absolute top-0 right-1/4 w-[500px] h-[500px] bg-primary/10 rounded-full blur-[120px] pointer-events-none group-hover:bg-primary/20 transition-all duration-700"></div>
+  <div class="absolute bottom-0 left-1/4 w-[400px] h-[400px] bg-secondary/10 rounded-full blur-[100px] pointer-events-none group-hover:bg-secondary/20 transition-all duration-700"></div>
+  
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+    <h2 class="text-4xl md:text-5xl font-black text-on-surface mb-6 tracking-tight leading-tight">Have an upcoming product to <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">build?</span></h2>
+    <p class="text-xl text-on-surface-variant font-medium leading-relaxed mb-10 max-w-2xl mx-auto">
+      From greenfield architecture to high-stakes legacy modernization, we engineer high-performance systems delivered on guaranteed sprints.
+    </p>
+    
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+      <a class="relative inline-flex items-center justify-center overflow-hidden rounded-full p-1 group/btn w-full sm:w-auto" href="contacts.html">
+        <span class="absolute inset-[-1000%] animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,rgba(0,98,160,0.1)_0%,rgba(59,218,231,1)_50%,rgba(0,98,160,0.1)_100%)]"></span>
+        <span class="absolute inset-1 rounded-full bg-surface-container-lowest opacity-0 group-hover/btn:opacity-10 transition-opacity duration-300 z-10"></span>
+        <span class="relative w-full z-20 inline-flex items-center gap-2 h-14 px-8 justify-center rounded-full bg-surface-container-lowest text-on-surface font-bold text-base group-hover/btn:bg-surface-container group-hover/btn:text-primary transition-all duration-300 shadow-lg whitespace-nowrap">
+          Schedule Technical Review
+          <span class="material-symbols-outlined text-[20px] text-primary group-hover/btn:translate-x-1 transition-transform">calendar_month</span>
+        </span>
+      </a>
+      
+      <a href="solution.html" class="inline-flex items-center gap-2 h-14 px-8 justify-center rounded-full bg-surface-container-low text-on-surface font-bold text-base hover:bg-surface-container border border-outline-variant/30 hover:border-outline-variant/60 transition-all duration-300 w-full sm:w-auto shadow-sm whitespace-nowrap">
+        Our Architecture Stack
+        <span class="material-symbols-outlined text-[20px] text-on-surface-variant">architecture</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-white border-t border-[#e5e5e5] py-12">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 flex flex-col md:flex-row items-center justify-between gap-6">
+    <a href="home.html" class="block">
+      <img src="images/logo.png" alt="Apexify Software Solutions" class="h-8 w-auto">
+    </a>
+    <p class="text-sm text-[#888888]">© 2025 Apexify. Rooted in architectural precision.</p>
+    <div class="flex gap-6 text-sm text-[#555555]">
+      <a href="#" class="hover:text-[#1b1b1b] transition-colors">Privacy Policy</a>
+      <a href="#" class="hover:text-[#1b1b1b] transition-colors">Terms of Service</a>
+      <a href="#" class="hover:text-[#1b1b1b] transition-colors">Security Architecture</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Filter Interaction Script -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const tabs = document.querySelectorAll('.filter-tab');
+    const cards = document.querySelectorAll('.case-study-card');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Reset all tabs
+        tabs.forEach(t => {
+          t.className = 'filter-tab px-5 py-2.5 rounded-full text-sm font-semibold bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all duration-300';
+        });
+
+        // Set active tab
+        tab.className = 'filter-tab active px-5 py-2.5 rounded-full text-sm font-bold bg-primary text-on-primary shadow-lg transition-all duration-300';
+
+        const category = tab.getAttribute('data-category');
+
+        cards.forEach(card => {
+          const cardGroup = card.getAttribute('data-group');
+          // Start hide transition
+          card.style.transition = 'all 0.4s ease-out';
+          
+          if (category === 'all' || cardGroup.includes(category)) {
+            card.style.display = 'block';
+            setTimeout(() => {
+              card.style.opacity = '1';
+              card.style.transform = 'scale(1) translateY(0)';
+            }, 50);
+          } else {
+            card.style.opacity = '0';
+            card.style.transform = 'scale(0.95) translateY(10px)';
+            setTimeout(() => {
+              card.style.display = 'none';
+            }, 400); // match transition duration
+          }
+        });
+      });
+    });
+  });
+</script>
+</body></html>

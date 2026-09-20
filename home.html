@@ -1,0 +1,553 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Apexify — Software Engineering &amp; Digital Product Studio</title>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+  <!-- Tailwind CSS (Local Build) -->
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="bg-background text-on-surface font-body-md antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- Top Announcement Bar -->
+<aside aria-label="Announcement" class="bg-primary-container border-b border-primary text-surface-bright py-2.5 px-4 text-xs font-medium tracking-wide">
+<div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-secondary text-surface-container-lowest text-[11px] font-semibold uppercase tracking-wider">
+<span class="size-1.5 rounded-full bg-tertiary-fixed animate-pulse"></span>
+          Accepting Engagements
+        </span>
+<span class="text-surface-bright text-xs sm:text-sm">
+          Now onboarding Q2/Q3 software engineering &amp; digital product engagements • Free architectural consultation
+        </span>
+</div>
+<a class="inline-flex items-center gap-1 text-tertiary-fixed hover:text-surface-container-lowest text-xs font-semibold group transition-colors" href="contacts.html">
+        Claim Consultation
+        <span class="material-symbols-outlined text-[14px] group-hover:translate-x-0.5 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</aside>
+<!-- Sticky Top Header (Shared Component Spec Compliant) -->
+<header class="sticky top-0 z-50 bg-surface/95 backdrop-blur border-b border-outline-variant/30">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between whitespace-nowrap">
+<!-- Brand -->
+<a class="flex items-center gap-3 text-primary focus:outline-none" href="home.html"><img src="images/logo.png" alt="Apexify Software Solutions" class="h-10 w-auto object-contain"></a>
+<!-- Desktop Navigation Links -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors" href="services.html">Services</a>
+<a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors" href="why-us.html">Why Us</a>
+<a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors" href="our_work.html">Work</a>
+<a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors" href="process.html">Process</a>
+<a class="text-on-surface-variant hover:text-primary text-sm font-medium transition-colors" href="solution.html">Architecture</a>
+</nav>
+<!-- CTAs -->
+<div class="flex items-center gap-3">
+<a class="hidden sm:inline-flex items-center justify-center rounded-lg h-10 px-4 bg-surface-container text-on-surface hover:bg-surface-container-high text-sm font-semibold border border-outline-variant/40 transition-colors" href="our_work.html">
+            View Our Work
+          </a>
+<a class="inline-flex items-center gap-1.5 justify-center rounded-lg h-10 px-4 bg-primary-container text-surface-container-lowest hover:bg-primary text-sm font-semibold tracking-[0.015em] shadow-sm transition-all" href="contacts.html">
+<span class="">Start a Project</span>
+<span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</header>
+<!-- Clean Editorial Hero Section -->
+<section class="relative w-full pt-40 pb-24 lg:pt-56 lg:pb-32 overflow-hidden mb-24 z-10 border-b border-gray-200 bg-[url('images/hero_bg_home.jpg')] bg-cover bg-center bg-no-repeat">
+  <!-- Subtle overlay to ensure text readability if needed -->
+  <div class="absolute inset-0 bg-white/70 backdrop-blur-[2px]"></div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+    <div class="inline-flex items-center gap-2 px-6 py-2 rounded-full bg-white border border-gray-200 text-on-surface-variant text-[11px] font-bold tracking-[0.2em] uppercase mb-8 shadow-sm">
+      Software Engineering &amp; Digital Product Studio
+    </div>
+    <h1 class="text-6xl md:text-8xl font-serif text-[#1b1b1b] mb-10 leading-[1.1] tracking-tight">
+      Build digital products that <br/><span class="text-primary italic">move your business forward.</span>
+    </h1>
+    <p class="text-lg md:text-xl text-[#555555] max-w-3xl mx-auto leading-relaxed mb-12">
+      Apexify Software Solutions designs and develops websites, web applications, mobile apps, and custom software for high-growth enterprises and venture-backed teams.
+    </p>
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <a class="w-full sm:w-auto inline-flex items-center gap-2 justify-center rounded border-2 border-primary bg-transparent text-primary hover:bg-primary hover:text-white px-8 py-3 text-sm font-bold tracking-widest uppercase transition-all duration-300" href="contacts.html">
+        Start a Project
+      </a>
+      <a class="w-full sm:w-auto inline-flex items-center gap-2 justify-center rounded border border-gray-300 bg-white text-[#333333] hover:border-primary hover:text-primary px-8 py-3 text-sm font-bold tracking-widest uppercase transition-all duration-300 shadow-sm" href="our_work.html">
+        <span class="material-symbols-outlined text-[18px]">play_circle</span>
+        View Our Work
+      </a>
+    </div>
+  </div>
+</section>
+<!-- Section 3: Trust & Capability Strip -->
+<section class="border-y border-outline-variant/30 bg-surface-container-lowest py-8" id="architecture">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+<div class="flex flex-col gap-1 p-4 rounded-lg bg-surface-container-low border border-outline-variant/30">
+<div class="flex items-center gap-2 text-on-surface-variant text-xs font-medium uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="integration_instructions">integration_instructions</span>
+<span class="">Architecture Standard</span>
+</div>
+<p class="text-primary tracking-tight text-xl sm:text-2xl font-bold font-headline-sm mt-1">Clean Code</p>
+<span class="text-[12px] text-on-surface-variant">Decoupled domain patterns</span>
+</div>
+<div class="flex flex-col gap-1 p-4 rounded-lg bg-surface-container-low border border-outline-variant/30">
+<div class="flex items-center gap-2 text-on-surface-variant text-xs font-medium uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="data_object">data_object</span>
+<span class="">Type Safety</span>
+</div>
+<p class="text-primary tracking-tight text-xl sm:text-2xl font-bold font-headline-sm mt-1">100% TypeScript</p>
+<span class="text-[12px] text-on-surface-variant">Compile-time fault prevention</span>
+</div>
+<div class="flex flex-col gap-1 p-4 rounded-lg bg-surface-container-low border border-outline-variant/30">
+<div class="flex items-center gap-2 text-on-surface-variant text-xs font-medium uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="lock">lock</span>
+<span class="">Compliance Standards</span>
+</div>
+<p class="text-primary tracking-tight text-xl sm:text-2xl font-bold font-headline-sm mt-1">SOC2 Ready</p>
+<span class="text-[12px] text-on-surface-variant">Strict RBAC &amp; data encryption</span>
+</div>
+<div class="flex flex-col gap-1 p-4 rounded-lg bg-surface-container-low border border-outline-variant/30">
+<div class="flex items-center gap-2 text-on-surface-variant text-xs font-medium uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="sync">sync</span>
+<span class="">Sprint Velocity</span>
+</div>
+<p class="text-primary tracking-tight text-xl sm:text-2xl font-bold font-headline-sm mt-1">Weekly Agile</p>
+<span class="text-[12px] text-on-surface-variant">Continuous staging deploys</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Core Services Grid (3 Columns) -->
+<section class="py-20 lg:py-24 bg-surface" id="services">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="text-xs font-bold uppercase tracking-[0.08em] text-secondary">Our Capabilities</span>
+<h2 class="text-primary text-3xl sm:text-4xl font-bold tracking-tight mt-2 font-headline-lg">
+          Core Engineering &amp; Product Services
+        </h2>
+<p class="mt-4 text-on-surface-variant text-base leading-relaxed">
+          From full-cycle platform development to complex systems integration, we build resilient software that scales alongside your market demands.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Service 1 -->
+<div class="group relative bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/30 shadow-sm hover:shadow-[0_0_40px_-10px_rgba(0,98,160,0.3)] hover:-translate-y-1 hover:border-secondary/50 transition-all duration-500 overflow-hidden animate-fade-in-up flex flex-col justify-between"><div>
+<div class="size-11 rounded-lg bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center mb-5">
+<span class="material-symbols-outlined text-[24px]" data-icon="speed">speed</span>
+</div>
+<h3 class="text-lg font-bold text-primary mb-2">Static Websites &amp; Fast Portals</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+Ultra-fast Jamstack architectures, SSG, and zero-maintenance marketing sites engineered for 100/100 Lighthouse performance, instant load times, and maximum SEO visibility.
+</p>
+</div>
+<div class="pt-6 border-t border-outline-variant/20 mt-6 flex items-center justify-between text-xs font-semibold text-secondary">
+<span class="">Astro • Next.js SSG • Jamstack</span>
+<span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</div></div>
+<!-- Service 2 -->
+<div class="group relative bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/30 shadow-sm hover:shadow-[0_0_40px_-10px_rgba(0,98,160,0.3)] hover:-translate-y-1 hover:border-secondary/50 transition-all duration-500 overflow-hidden animate-fade-in-up flex flex-col justify-between"><div>
+<div class="size-11 rounded-lg bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center mb-5">
+<span class="material-symbols-outlined text-[24px]" data-icon="web">web</span>
+</div>
+<h3 class="text-lg font-bold text-primary mb-2">Dynamic Web Applications</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+Interactive full-stack web apps, user authentication, real-time dashboards, SaaS platforms, and API-connected enterprise software engineered for security and scale.
+</p>
+</div>
+<div class="pt-6 border-t border-outline-variant/20 mt-6 flex items-center justify-between text-xs font-semibold text-secondary">
+<span class="">React • Next.js • Node • PostgreSQL</span>
+<span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</div></div>
+<!-- Service 3 -->
+<div class="group relative bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/30 shadow-sm hover:shadow-[0_0_40px_-10px_rgba(0,98,160,0.3)] hover:-translate-y-1 hover:border-secondary/50 transition-all duration-500 overflow-hidden animate-fade-in-up flex flex-col justify-between">
+<div>
+<div class="size-11 rounded-lg bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center mb-5">
+<span class="material-symbols-outlined text-[24px]" data-icon="smartphone">smartphone</span>
+</div>
+<h3 class="text-lg font-bold text-primary mb-2">Mobile App Development</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+              Seamless iOS and Android native &amp; cross-platform solutions. Delivering smooth 60fps offline-first user interfaces and hardware integrations.
+            </p>
+</div>
+<div class="pt-6 border-t border-outline-variant/20 mt-6 flex items-center justify-between text-xs font-semibold text-secondary">
+<span class="">React Native • Swift • Kotlin</span>
+<span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+<!-- Service 4 -->
+<div class="group relative bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/30 shadow-sm hover:shadow-[0_0_40px_-10px_rgba(0,98,160,0.3)] hover:-translate-y-1 hover:border-secondary/50 transition-all duration-500 overflow-hidden animate-fade-in-up flex flex-col justify-between">
+<div>
+<div class="size-11 rounded-lg bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center mb-5">
+<span class="material-symbols-outlined text-[24px]" data-icon="cloud">cloud</span>
+</div>
+<h3 class="text-lg font-bold text-primary mb-2">Cloud &amp; API Infrastructure</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+              Scalable serverless architectures, custom REST/GraphQL microservices, and auto-scaling container clusters managed with automated CI/CD pipelines.
+            </p>
+</div>
+<div class="pt-6 border-t border-outline-variant/20 mt-6 flex items-center justify-between text-xs font-semibold text-secondary">
+<span class="">AWS • GCP • Kubernetes</span>
+<span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+<!-- Service 5 -->
+<div class="group relative bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/30 shadow-sm hover:shadow-[0_0_40px_-10px_rgba(0,98,160,0.3)] hover:-translate-y-1 hover:border-secondary/50 transition-all duration-500 overflow-hidden animate-fade-in-up flex flex-col justify-between">
+<div>
+<div class="size-11 rounded-lg bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center mb-5">
+<span class="material-symbols-outlined text-[24px]" data-icon="design_services">design_services</span>
+</div>
+<h3 class="text-lg font-bold text-primary mb-2">UI/UX Engineering</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+              Production-ready design systems, interaction design, and accessible interfaces that bridge Figma designs directly into robust code libraries.
+            </p>
+</div>
+<div class="pt-6 border-t border-outline-variant/20 mt-6 flex items-center justify-between text-xs font-semibold text-secondary">
+<span class="">Design Tokens • WCAG 2.1 AA</span>
+<span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+<!-- Service 6 -->
+<div class="group relative bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/30 shadow-sm hover:shadow-[0_0_40px_-10px_rgba(0,98,160,0.3)] hover:-translate-y-1 hover:border-secondary/50 transition-all duration-500 overflow-hidden animate-fade-in-up flex flex-col justify-between">
+<div>
+<div class="size-11 rounded-lg bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center mb-5">
+<span class="material-symbols-outlined text-[24px]" data-icon="monitoring">monitoring</span>
+</div>
+<h3 class="text-lg font-bold text-primary mb-2">Ongoing Support &amp; Optimization</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+              Continuous performance tuning, security audits, database indexing, and regular feature evolution backed by proactive monitoring and dedicated SLAs.
+            </p>
+</div>
+<div class="pt-6 border-t border-outline-variant/20 mt-6 flex items-center justify-between text-xs font-semibold text-secondary">
+<span class="">24/7 Monitoring • SLO Guarantee</span>
+<span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Why Apexify (Clean Editorial) -->
+<section class="py-24 bg-white border-y border-gray-200" id="why-us">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-start">
+      <div class="lg:col-span-5">
+        <span class="text-[11px] font-bold uppercase tracking-[0.2em] text-[#555555]">The Apexify Difference</span>
+        <h2 class="text-[#1b1b1b] text-4xl sm:text-5xl font-serif tracking-tight mt-4 leading-[1.1]">
+          Engineered for partners who value precision.
+        </h2>
+        <p class="mt-6 text-[#555555] text-lg leading-relaxed">
+          We operate as your dedicated technical arm, eliminating agency overhead and delivering high-yield software that survives rapid scale.
+        </p>
+        <div class="mt-8">
+          <a class="inline-flex items-center gap-2 text-primary font-bold text-sm hover:text-[#1b1b1b] uppercase tracking-widest transition-colors" href="contacts.html">
+            <span>Read our engineering manifesto</span>
+            <span class="material-symbols-outlined text-[18px]">trending_flat</span>
+          </a>
+        </div>
+      </div>
+      <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-16">
+        <!-- Pillar 1 -->
+        <div class="flex flex-col group">
+          <div class="mb-6 border-b border-gray-200 pb-4">
+            <span class="text-4xl font-serif text-[#1b1b1b]">01</span>
+          </div>
+          <h3 class="text-xl font-bold text-[#1b1b1b] mb-3">Engineering Rigor</h3>
+          <p class="text-[#555555] text-base leading-relaxed">
+            We apply strict automated testing, CI/CD gates, and modular domain architectures so your system never becomes technical debt.
+          </p>
+        </div>
+        <!-- Pillar 2 -->
+        <div class="flex flex-col group">
+          <div class="mb-6 border-b border-gray-200 pb-4">
+            <span class="text-4xl font-serif text-[#1b1b1b]">02</span>
+          </div>
+          <h3 class="text-xl font-bold text-[#1b1b1b] mb-3">Direct Access</h3>
+          <p class="text-[#555555] text-base leading-relaxed">
+            No account middlemen or distorted messages. You collaborate directly with principal architects and lead engineers.
+          </p>
+        </div>
+        <!-- Pillar 3 -->
+        <div class="flex flex-col group">
+          <div class="mb-6 border-b border-gray-200 pb-4">
+            <span class="text-4xl font-serif text-[#1b1b1b]">03</span>
+          </div>
+          <h3 class="text-xl font-bold text-[#1b1b1b] mb-3">Pragmatic ROI</h3>
+          <p class="text-[#555555] text-base leading-relaxed">
+            We prioritize software decisions that drive real retention, conversion rates, and server efficiency rather than vanity engineering.
+          </p>
+        </div>
+        <!-- Pillar 4 -->
+        <div class="flex flex-col group">
+          <div class="mb-6 border-b border-gray-200 pb-4">
+            <span class="text-4xl font-serif text-[#1b1b1b]">04</span>
+          </div>
+          <h3 class="text-xl font-bold text-[#1b1b1b] mb-3">Maintainable Code</h3>
+          <p class="text-[#555555] text-base leading-relaxed">
+            Self-documenting TypeScript, comprehensive architectural diagrams, and smooth developer onboarding if your internal team takes over.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Section 6: Featured Projects Preview -->
+<section class="py-20 lg:py-24 bg-surface" id="work">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<span class="text-xs font-bold uppercase tracking-[0.08em] text-secondary">Selected Case Studies</span>
+<h2 class="text-primary text-3xl sm:text-4xl font-bold tracking-tight mt-2 font-headline-lg">
+            Proven execution across complex spaces.
+          </h2>
+</div>
+<a class="inline-flex items-center gap-1.5 text-sm font-bold text-primary hover:text-secondary transition-colors" href="contacts.html">
+<span class="">Request Full Client Portfolio</span>
+<span class="material-symbols-outlined text-[16px]" data-icon="north_east">north_east</span>
+</a>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<!-- Case Study 1 -->
+<article class="bg-surface-container-lowest border border-outline-variant/40 rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="aspect-video w-full bg-surface-container overflow-hidden relative">
+<img class="w-full h-full object-cover" data-alt="A pristine high-tech enterprise web portal user interface displayed on a modern display in a bright daylight architectural office. Clean cool blues and slate grays dominate the palette with minimalist data tables and interactive charts. The room features subtle white natural lighting and clean surfaces." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvpyvubdnOSxaVxQIm1V_NQ5GP6umMt8dQYIGvktZjDbbnGhi4M_PYr4zohoyTRd2ZKGXcGV13eq7V6y3w0U91aSZlv7MnLRJdFr5jJMvz9Rk6HpT7I0BbUd5aDaZBS9yLTTk594VS2E7wgCfvlUkU7KLmW3fZ_w9Co67COqjRbzRwzlr1OokhPKOdBqA7Bkf9JjRUQOXjL7JGCkdfzJ6wL4dK4olYbtpUMymN1lIKoeJ7JpbAhqWs">
+<div class="absolute top-4 left-4 bg-primary-container/90 backdrop-blur text-surface-container-lowest text-xs font-semibold px-3 py-1 rounded-full">
+              Fintech Platform
+            </div>
+</div>
+<div class="p-6 sm:p-8 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between text-xs text-on-surface-variant mb-2">
+<span class="">Multi-tenant SaaS Architecture</span>
+<span class="font-code-sm font-semibold text-secondary">6-Month Delivery</span>
+</div>
+<h3 class="text-xl font-bold text-primary mb-3">Vanguard Treasury OS</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-4">
+                Re-engineered legacy financial routing rails into a resilient real-time payment aggregation service with bank-grade multi-factor security.
+              </p>
+<!-- Metrics list -->
+<div class="grid grid-cols-3 gap-2 py-3 border-y border-outline-variant/30 text-center mb-4">
+<div>
+<div class="text-primary font-bold text-lg font-headline-sm">4.2x</div>
+<div class="text-[11px] text-on-surface-variant">Throughput Increase</div>
+</div>
+<div>
+<div class="text-primary font-bold text-lg font-headline-sm">99.999%</div>
+<div class="text-[11px] text-on-surface-variant">Transaction Uptime</div>
+</div>
+<div>
+<div class="text-primary font-bold text-lg font-headline-sm">&lt;65ms</div>
+<div class="text-[11px] text-on-surface-variant">API Response</div>
+</div>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-2 text-xs font-code-sm text-on-surface-variant">
+<span class="px-2 py-1 rounded bg-surface-container">Next.js 14</span>
+<span class="px-2 py-1 rounded bg-surface-container">Go Microservices</span>
+<span class="px-2 py-1 rounded bg-surface-container">PostgreSQL</span>
+<span class="px-2 py-1 rounded bg-surface-container">AWS ECS</span>
+<span class="px-2 py-1 rounded bg-surface-container">PHP</span>
+<span class="px-2 py-1 rounded bg-surface-container">MySQL</span>
+<span class="px-2 py-1 rounded bg-surface-container">Bootstrap</span>
+</div>
+</div>
+</article>
+<!-- Case Study 2 -->
+<article class="bg-surface-container-lowest border border-outline-variant/40 rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="aspect-video w-full bg-surface-container overflow-hidden relative">
+<img class="w-full h-full object-cover" data-alt="A sleek cross-platform healthcare mobile and tablet application mockup shown against a luminous modern medical research laboratory background. The UI displays clean telemetry graphs with navy blue and cyan indicator accents in crisp high-key lighting. The atmosphere conveys clinical precision and technological elegance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYR3DoxhcW_6ARfu655eoWTkfkGR_h7GER0sUz7OFUZZEKDPGsL5DjThKhIA_aS2pfOs37xUtSfyfnB3JxZP1mCZ0s6-NH31kDd1Bx_Zk5az3yFVyAMs1JNPCEGr--2-wWaTTwEaKFt-a-d0g8DgbSrh0LF9UjYUJ5Z0XlHAcoA4BDKcGFI_zihFuxjl9rtqFCfBkoGfdEvk7vedErHWQ4R5FHFSviBNfVa67pCUfjBJcFCN8Vk-aL">
+<div class="absolute top-4 left-4 bg-primary-container/90 backdrop-blur text-surface-container-lowest text-xs font-semibold px-3 py-1 rounded-full">
+              Digital Health Ecosystem
+            </div>
+</div>
+<div class="p-6 sm:p-8 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between text-xs text-on-surface-variant mb-2">
+<span class="">HIPAA-Compliant Mobile &amp; Web</span>
+<span class="font-code-sm font-semibold text-secondary">4-Month Delivery</span>
+</div>
+<h3 class="text-xl font-bold text-primary mb-3">TheraSync Clinical Suite</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-4">
+                Designed and built a patient-practitioner telemetry application allowing decentralized synchronization of biometric sensor readings and live video consultations.
+              </p>
+<!-- Metrics list -->
+<div class="grid grid-cols-3 gap-2 py-3 border-y border-outline-variant/30 text-center mb-4">
+<div>
+<div class="text-primary font-bold text-lg font-headline-sm">120k+</div>
+<div class="text-[11px] text-on-surface-variant">Active Patients</div>
+</div>
+<div>
+<div class="text-primary font-bold text-lg font-headline-sm">0</div>
+<div class="text-[11px] text-on-surface-variant">Audit Violations</div>
+</div>
+<div>
+<div class="text-primary font-bold text-lg font-headline-sm">4.9 ★</div>
+<div class="text-[11px] text-on-surface-variant">App Store Rating</div>
+</div>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-2 text-xs font-code-sm text-on-surface-variant">
+<span class="px-2 py-1 rounded bg-surface-container">React Native</span>
+<span class="px-2 py-1 rounded bg-surface-container">WebRTC</span>
+<span class="px-2 py-1 rounded bg-surface-container">FastAPI</span>
+<span class="px-2 py-1 rounded bg-surface-container">SOC2 Audited</span>
+<span class="px-2 py-1 rounded bg-surface-container">Flutter</span>
+<span class="px-2 py-1 rounded bg-surface-container">Firebase</span>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Section 7: Development Process (4-Step Pipeline) -->
+<section class="py-20 bg-surface-container-low border-t border-outline-variant/30" id="process">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="text-xs font-bold uppercase tracking-[0.08em] text-secondary">The Execution Blueprint</span>
+<h2 class="text-primary text-3xl sm:text-4xl font-bold tracking-tight mt-2 font-headline-lg">
+          Transparent 4-Step Engineering Pipeline
+        </h2>
+<p class="mt-4 text-on-surface-variant text-base">
+          Predictable milestones, weekly sprint deliverables, and zero ambiguity from inception to planetary deployment.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Step 1 -->
+<div class="relative p-6 rounded-xl bg-surface-container-lowest border border-outline-variant/30 flex flex-col">
+<span class="font-code-sm text-3xl font-black text-secondary/30 mb-4">01</span>
+<h3 class="text-base font-bold text-primary mb-2">Architecture &amp; Discovery</h3>
+<p class="text-on-surface-variant text-xs sm:text-sm leading-relaxed mb-4">
+            System topology design, domain modeling, cloud resource estimation, and specification of exact sprint deliverables.
+          </p>
+<div class="mt-auto pt-3 border-t border-outline-variant/20 text-[11px] font-semibold text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="task_alt">task_alt</span>
+<span class="">Arch Specs &amp; Schemas</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="relative p-6 rounded-xl bg-surface-container-lowest border border-outline-variant/30 flex flex-col">
+<span class="font-code-sm text-3xl font-black text-secondary/30 mb-4">02</span>
+<h3 class="text-base font-bold text-primary mb-2">Iterative Build Sprints</h3>
+<p class="text-on-surface-variant text-xs sm:text-sm leading-relaxed mb-4">
+            Continuous delivery via bi-weekly sprint cadences. Live staging builds pushed constantly with full GitHub commit visibility.
+          </p>
+<div class="mt-auto pt-3 border-t border-outline-variant/20 text-[11px] font-semibold text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="task_alt">task_alt</span>
+<span class="">Weekly Demo Previews</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="relative p-6 rounded-xl bg-surface-container-lowest border border-outline-variant/30 flex flex-col">
+<span class="font-code-sm text-3xl font-black text-secondary/30 mb-4">03</span>
+<h3 class="text-base font-bold text-primary mb-2">QA &amp; Hardening</h3>
+<p class="text-on-surface-variant text-xs sm:text-sm leading-relaxed mb-4">
+            Penetration tests, load-testing simulating 50k concurrent sessions, automated regression suites, and accessibility audits.
+          </p>
+<div class="mt-auto pt-3 border-t border-outline-variant/20 text-[11px] font-semibold text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="task_alt">task_alt</span>
+<span class="">Zero-Vuln Certification</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="relative p-6 rounded-xl bg-surface-container-lowest border border-outline-variant/30 flex flex-col">
+<span class="font-code-sm text-3xl font-black text-secondary/30 mb-4">04</span>
+<h3 class="text-base font-bold text-primary mb-2">Launch &amp; Scale</h3>
+<p class="text-on-surface-variant text-xs sm:text-sm leading-relaxed mb-4">
+            Zero-downtime DNS migrations, canary rollouts, comprehensive telemetry setup, and complete handover of IP assets.
+          </p>
+<div class="mt-auto pt-3 border-t border-outline-variant/20 text-[11px] font-semibold text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="task_alt">task_alt</span>
+<span class="">100% Repository Handover</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA Section -->
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-24 mt-24">
+  <section class="bg-primary rounded-2xl flex flex-col md:flex-row items-center justify-between gap-8 p-10 md:p-16 shadow-[0_0_50px_-12px_rgba(0,98,160,0.5)] relative overflow-hidden group animate-fade-in-up">
+    <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-secondary/30 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/3 group-hover:bg-secondary/40 transition-colors duration-700 pointer-events-none"></div>
+    
+    <div class="relative z-10 max-w-2xl">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-container text-tertiary-fixed text-xs font-semibold uppercase tracking-wider mb-6 border border-secondary">
+        <span class="size-2 rounded-full bg-tertiary-fixed animate-ping"></span>
+        Now Scheduling Q2 / Q3 Initiatives
+      </div>
+      <h2 class="text-3xl md:text-4xl font-bold text-on-primary mb-4 tracking-tight">Ready to build your next breakthrough product?</h2>
+      <p class="text-primary-fixed-dim text-lg">
+        Let's discuss your roadmap. Book an architectural consultation directly with our lead engineering partners.
+      </p>
+    </div>
+    <div class="relative z-10 shrink-0 flex flex-col sm:flex-row gap-4">
+      <a class="inline-flex items-center gap-2 justify-center rounded-lg h-12 px-8 bg-tertiary-fixed text-on-tertiary-fixed hover:bg-tertiary-fixed-dim hover:shadow-[0_0_20px_rgba(127,244,255,0.6)] font-bold text-sm tracking-[0.015em] transition-all duration-300" href="contacts.html">
+        Schedule Call
+        <span class="material-symbols-outlined text-[20px]">calendar_month</span>
+      </a>
+    </div>
+  </section>
+</div>
+
+<!-- Technologies Section -->
+<section class="py-20 bg-surface-container-lowest border-y border-outline-variant/30 relative overflow-hidden animate-fade-in-up">
+  <!-- Background decorative elements -->
+  <div class="absolute -right-20 -top-20 w-72 h-72 bg-secondary/10 rounded-full blur-[80px] pointer-events-none"></div>
+  <div class="absolute -left-20 -bottom-20 w-72 h-72 bg-primary/10 rounded-full blur-[80px] pointer-events-none"></div>
+  
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+    <div class="mb-14">
+      <span class="text-xs font-bold uppercase tracking-widest text-secondary mb-3 block font-label-caps animate-pulse">Our Tech Stack</span>
+      <h2 class="text-3xl md:text-5xl font-extrabold text-on-surface mb-5 tracking-tight hover:scale-105 transition-transform duration-500">Technologies We Use</h2>
+      <p class="text-on-surface-variant text-lg max-w-2xl mx-auto leading-relaxed">
+        Leveraging modern, enterprise-grade tools and frameworks to deliver scalable, secure, and high-performance solutions.
+      </p>
+    </div>
+    
+    <div class="flex flex-wrap justify-center gap-4 md:gap-5 max-w-5xl mx-auto">
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default">
+        HTML
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-75">
+        CSS
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-100">
+        Bootstrap
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-secondary hover:border-secondary/50 hover:bg-secondary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,166,255,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-150">
+        Flutter
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-primary hover:border-primary/50 hover:bg-primary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,98,160,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-200">
+        Java
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-primary hover:border-primary/50 hover:bg-primary/5 hover:shadow-[0_8px_16px_-6px_rgba(0,98,160,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-300">
+        PHP
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-100">
+        Firebase
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-150">
+        Supabase
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-200">
+        MySQL
+      </span>
+      <span class="group relative px-6 py-3 bg-surface-container-low border border-outline-variant/40 rounded-2xl text-sm md:text-base font-bold text-on-surface hover:text-tertiary hover:border-tertiary/50 hover:bg-tertiary/5 hover:shadow-[0_8px_16px_-6px_rgba(111,81,213,0.2)] hover:-translate-y-2 transition-all duration-300 cursor-default delay-300">
+        WordPress
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="border-t border-outline-variant bg-surface-container-low py-10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-2"><a href="home.html" class="flex items-center gap-2" aria-label="Apexify Home"><img src="images/logo.png" alt="Apexify Software Solutions" class="h-9 w-auto object-contain"></a></div>
+<p class="text-xs text-on-surface-variant font-code-sm">© 2025 Apexify. Rooted in architectural precision.</p>
+<div class="flex gap-4 text-xs text-on-surface-variant">
+<a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="hover:text-primary transition-colors" href="#">Security Architecture</a>
+</div>
+</div>
+</footer>
+
+
+</body></html>

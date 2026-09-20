@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="Discover Apexify's enterprise architecture solutions. We build highly scalable, resilient cloud-native applications, microservices, and secure digital platforms." />
+  <meta name="keywords" content="Enterprise Architecture, Cloud Native, Microservices, Scalability, High Availability, Zero-Trust Security, SaaS Architecture, Backend Engineering" />
+  <title>Enterprise Architecture &amp; Solutions | Apexify Software</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Tailwind CSS (Local Build) -->
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body class="bg-white text-[#1b1b1b] antialiased selection:bg-cyan-900 selection:text-white font-sans">
+  <!-- Shared Header -->
+  <header class="sticky top-0 z-50 bg-white border-b border-[#e5e5e5]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a class="flex items-center gap-3 focus:outline-none" href="home.html">
+        <img src="images/logo.png" alt="Apexify Software Solutions" class="h-8 w-auto object-contain">
+      </a>
+      <nav class="hidden md:flex items-center gap-10">
+        <a class="text-[#555555] hover:text-[#1b1b1b] text-sm font-medium transition-colors" href="services.html">Services</a>
+        <a class="text-[#555555] hover:text-[#1b1b1b] text-sm font-medium transition-colors" href="why-us.html">Why Us</a>
+        <a class="text-[#555555] hover:text-[#1b1b1b] text-sm font-medium transition-colors" href="our_work.html">Work</a>
+        <a class="text-[#555555] hover:text-[#1b1b1b] text-sm font-medium transition-colors" href="process.html">Process</a>
+        <a class="text-[#1b1b1b] font-semibold text-sm transition-colors" href="solution.html">Architecture</a>
+      </nav>
+      <div class="flex items-center gap-4">
+        <a class="hidden sm:inline-flex text-[#1b1b1b] hover:text-[#555555] text-sm font-semibold transition-colors" href="our_work.html">View Our Work</a>
+        <a class="inline-flex items-center justify-center h-10 px-6 bg-[#1b1b1b] text-white hover:bg-cyan-800 text-sm font-semibold tracking-wide transition-colors" href="contacts.html">Start a Project</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="w-full flex-col bg-white">
+    <!-- Hero Section -->
+    <section class="py-24 bg-[#1b1b1b] text-white">
+      <div class="max-w-7xl mx-auto px-6 lg:px-10 pt-10">
+        <div class="inline-flex items-center gap-2 mb-6 px-4 py-1.5 border border-[#333333] rounded-full">
+          <span class="text-xs font-bold uppercase tracking-widest text-[#a0a0a0]">Enterprise Architecture</span>
+        </div>
+        <h1 class="text-5xl md:text-7xl font-serif leading-tight mb-8">
+          Built for scale.<br/><span class="text-cyan-600">Engineered for resilience.</span>
+        </h1>
+        <p class="text-xl text-[#a0a0a0] max-w-3xl leading-relaxed">
+          At Apexify, we don't just write code; we design highly available, distributed cloud systems. Our architectural frameworks ensure your digital products handle millions of requests without breaking a sweat.
+        </p>
+      </div>
+    </section>
+
+    <!-- Core Pillars Section -->
+    <section class="py-24 bg-white border-b border-[#e5e5e5]">
+      <div class="max-w-7xl mx-auto px-6 lg:px-10">
+        <div class="mb-16">
+          <h2 class="text-4xl md:text-5xl font-serif text-[#1b1b1b] mb-6">Our Architectural Pillars</h2>
+          <p class="text-[#555555] text-lg max-w-2xl leading-relaxed">
+            Foundation principles that govern every application, API, and cloud environment we deploy.
+          </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+          <div class="border-t border-[#1b1b1b] pt-8">
+            <h3 class="text-2xl font-serif mb-4">Microservices Architecture</h3>
+            <p class="text-[#555555] leading-relaxed mb-6">Decoupled, containerized domains that allow your teams to deploy, scale, and update features independently without monolithic bottlenecks.</p>
+            <div class="flex gap-4 text-sm font-bold uppercase tracking-wider text-[#1b1b1b]">
+              <span>Docker</span>
+              <span>Kubernetes</span>
+            </div>
+          </div>
+          
+          <div class="border-t border-[#1b1b1b] pt-8">
+            <h3 class="text-2xl font-serif mb-4">Zero-Trust Security</h3>
+            <p class="text-[#555555] leading-relaxed">Strict IAM policies, end-to-end encryption, and rigorous vulnerability scanning baked directly into the deployment pipeline.</p>
+          </div>
+
+          <div class="border-t border-[#1b1b1b] pt-8">
+            <h3 class="text-2xl font-serif mb-4">Edge Performance</h3>
+            <p class="text-[#555555] leading-relaxed">Global CDN routing, edge computing, and optimized caching layers ensuring sub-second latency worldwide.</p>
+          </div>
+
+          <div class="border-t border-[#1b1b1b] pt-8 flex flex-col md:flex-row gap-8 items-start justify-between">
+            <div>
+              <h3 class="text-2xl font-serif mb-4">High Availability</h3>
+              <p class="text-[#555555] leading-relaxed">Multi-region deployments and automated failover topologies designed for strict 99.99% uptime guarantees.</p>
+            </div>
+            <div class="text-4xl font-serif text-cyan-700 shrink-0">99.99%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack Section (Minimal) -->
+    <section class="py-24 bg-[#F9F9F7] border-b border-[#e5e5e5]">
+      <div class="max-w-7xl mx-auto px-6 lg:px-10 text-center">
+        <h2 class="text-4xl md:text-5xl font-serif text-[#1b1b1b] mb-16">Modern Technology Stack</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-left">
+          <!-- Frontend -->
+          <div>
+            <h3 class="text-xl font-bold uppercase tracking-wider text-[#1b1b1b] mb-6 border-b border-[#e5e5e5] pb-4">Presentation</h3>
+            <ul class="space-y-4 text-[#555555]">
+              <li>React & Next.js</li>
+              <li>Vue & Nuxt</li>
+              <li>React Native</li>
+              <li>Tailwind CSS</li>
+              <li>TypeScript</li>
+              <li>Flutter</li>
+            </ul>
+          </div>
+          
+          <!-- Backend -->
+          <div>
+            <h3 class="text-xl font-bold uppercase tracking-wider text-[#1b1b1b] mb-6 border-b border-[#e5e5e5] pb-4">Core Logic</h3>
+            <ul class="space-y-4 text-[#555555]">
+              <li>Node.js (Nest)</li>
+              <li>Go (Golang)</li>
+              <li>Python (FastAPI)</li>
+              <li>GraphQL & gRPC</li>
+              <li>Java</li>
+              <li>PHP</li>
+            </ul>
+          </div>
+
+          <!-- Infrastructure -->
+          <div>
+            <h3 class="text-xl font-bold uppercase tracking-wider text-[#1b1b1b] mb-6 border-b border-[#e5e5e5] pb-4">Data & Cloud</h3>
+            <ul class="space-y-4 text-[#555555]">
+              <li>PostgreSQL & Redis</li>
+              <li>MongoDB</li>
+              <li>AWS / GCP</li>
+              <li>Docker / K8s</li>
+              <li>Supabase / Firebase</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Performance Metrics Section -->
+    <section class="py-24 bg-white border-b border-[#e5e5e5]">
+      <div class="max-w-7xl mx-auto px-6 lg:px-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-16 text-center divide-y md:divide-y-0 md:divide-x divide-[#e5e5e5]">
+          <div class="pt-8 md:pt-0 px-4">
+            <span class="block text-6xl font-serif text-[#1b1b1b] mb-4">99.99%</span>
+            <span class="block text-sm font-bold uppercase tracking-widest text-[#555555]">Uptime SLA</span>
+          </div>
+          <div class="pt-8 md:pt-0 px-4">
+            <span class="block text-6xl font-serif text-[#1b1b1b] mb-4">&lt; 1s</span>
+            <span class="block text-sm font-bold uppercase tracking-widest text-[#555555]">Global Latency</span>
+          </div>
+          <div class="pt-8 md:pt-0 px-4">
+            <span class="block text-6xl font-serif text-[#1b1b1b] mb-4">10k+</span>
+            <span class="block text-sm font-bold uppercase tracking-widest text-[#555555]">Req/Second</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deployment Models Section -->
+    <section class="py-24 bg-[#1b1b1b] text-white">
+      <div class="max-w-7xl mx-auto px-6 lg:px-10">
+        <div class="mb-16">
+          <h2 class="text-4xl md:text-5xl font-serif mb-6">Flexible Deployment Models</h2>
+          <p class="text-[#a0a0a0] text-lg max-w-2xl leading-relaxed">
+            We architect systems that run wherever your compliance and scale require.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <div class="border-t border-[#333333] pt-8">
+            <h3 class="text-2xl font-serif mb-4">Cloud Native</h3>
+            <p class="text-[#a0a0a0] leading-relaxed mb-6">Serverless and containerized solutions on AWS or Google Cloud, fully managed via Infrastructure as Code for infinite scale.</p>
+          </div>
+          <div class="border-t border-[#333333] pt-8">
+            <h3 class="text-2xl font-serif mb-4">On-Premise Enterprise</h3>
+            <p class="text-[#a0a0a0] leading-relaxed mb-6">Air-gapped and self-hosted deployments for strict regulatory environments like healthcare (HIPAA) or fintech (PCI-DSS).</p>
+          </div>
+          <div class="border-t border-[#333333] pt-8">
+            <h3 class="text-2xl font-serif mb-4">Hybrid Architecture</h3>
+            <p class="text-[#a0a0a0] leading-relaxed mb-6">Seamlessly bridge legacy mainframes with modern cloud microservices using secure API gateways and event streaming.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Architecture FAQ Section -->
+    <section class="py-24 bg-white border-b border-[#e5e5e5]">
+      <div class="max-w-4xl mx-auto px-6 lg:px-10">
+        <h2 class="text-4xl font-serif text-[#1b1b1b] mb-12 text-center">Technical FAQ</h2>
+        <div class="space-y-8">
+          <div class="border-b border-[#e5e5e5] pb-8">
+            <h3 class="text-xl font-bold text-[#1b1b1b] mb-4">Do you inherit and modernize legacy codebases?</h3>
+            <p class="text-[#555555] leading-relaxed">
+              Yes. We often execute "Strangler Fig" migration patterns—wrapping legacy monoliths in modern API gateways and gradually decoupling domains into scalable microservices without downtime.
+            </p>
+          </div>
+          <div class="border-b border-[#e5e5e5] pb-8">
+            <h3 class="text-xl font-bold text-[#1b1b1b] mb-4">How do you ensure data security?</h3>
+            <p class="text-[#555555] leading-relaxed">
+              We implement zero-trust networking, RBAC (Role-Based Access Control), AES-256 encryption at rest, and TLS 1.3 in transit. Our pipelines include automated SAST/DAST vulnerability scanning.
+            </p>
+          </div>
+          <div class="pb-8">
+            <h3 class="text-xl font-bold text-[#1b1b1b] mb-4">What is your typical technology stack?</h3>
+            <p class="text-[#555555] leading-relaxed">
+              While we are tech-agnostic, we prefer TypeScript/React (Next.js) for the frontend, Node.js or Golang for backend compute, and PostgreSQL for relational data, orchestrated on AWS or GCP.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom CTA Banner -->
+    <section class="py-24 bg-[#F9F9F7]">
+      <div class="max-w-4xl mx-auto px-6 lg:px-10 text-center">
+        <h2 class="text-4xl md:text-5xl font-serif text-[#1b1b1b] mb-6">Need an architectural audit?</h2>
+        <p class="text-xl text-[#555555] font-light leading-relaxed mb-10 max-w-2xl mx-auto">
+          Let our senior architects review your infrastructure and propose a scalable roadmap.
+        </p>
+        <a href="contacts.html" class="inline-block bg-[#1b1b1b] text-white px-8 py-4 text-sm font-semibold tracking-wide hover:bg-cyan-800 transition-colors w-full sm:w-auto text-center">
+          Schedule Consultation
+        </a>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer minimal note -->
+  <footer class="bg-white border-t border-[#e5e5e5] py-12">
+    <div class="max-w-7xl mx-auto px-6 lg:px-10 flex flex-col md:flex-row items-center justify-between gap-6">
+      <a href="home.html" class="block">
+        <img src="images/logo.png" alt="Apexify Software Solutions" class="h-8 w-auto">
+      </a>
+      <p class="text-sm text-[#888888]">© 2025 Apexify. Rooted in architectural precision.</p>
+      <div class="flex gap-6 text-sm text-[#555555]">
+        <a href="#" class="hover:text-[#1b1b1b] transition-colors">Privacy Policy</a>
+        <a href="#" class="hover:text-[#1b1b1b] transition-colors">Terms of Service</a>
+        <a href="solution.html" class="hover:text-[#1b1b1b] transition-colors">Security Architecture</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
